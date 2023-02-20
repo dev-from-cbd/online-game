@@ -1,0 +1,112 @@
+<!-- --------------------------------- -->
+<!--                                   -->
+<!-- This HTML5 Code developed by      -->
+<!-- Oleg Gribanov and ChatGPT :: 2023 -->
+<!--                                   -->
+<!-- --------------------------------- -->
+
+<!-- This line declares that the following code is written in HTML5 -->
+<!DOCTYPE html>
+
+<!-- This line specifies the language of the document, which is English in this case -->
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+    
+    <!-- This line specifies the character encoding of the document as UTF-8 -->
+    <meta charset="UTF-8" />
+
+    <!-- This line sets the compatibility mode of the document to the latest version of Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- This line specifies the viewport settings for the page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This line sets the title of the page to "Game" -->
+    <title>Game</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="fav.png" />
+
+    <!-- Stylesheets -->
+    <style>
+      body {
+        background: url("1.png") no-repeat center/cover fixed;
+      }
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10%;
+        background-color: rgba(255, 255, 255, 0.95);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+      }
+      h1 {
+        font-size: 2rem;
+        text-align: center;
+      }
+      main {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 80%;
+        background: url("2.png") no-repeat center/cover;
+        opacity: 0.6;
+      }
+      img {
+        position: absolute;
+      }
+      #im3 {
+        top: 7%;
+        right: 10%;
+        width: 80%;
+        opacity: 0.5;
+      }
+      footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 10%;
+        background-color: rgba(255, 255, 255, 0.95);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+      }
+      p {
+        font-size: 1rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header Title</h1>
+    </header>
+    <main>
+      <img src="3.png" class="ima" id="im3" data-value="3" />
+    </main>
+    <footer>
+      <!-- This line creates a footer element with the text "Developed by Oleg Gribanov and ChatGPT :: 2023" -->
+      <p>Developed by Oleg Gribanov and ChatGPT :: 2023</p>
+    </footer>
+    <script>
+      document.addEventListener("mousemove", (e) => {
+        document.querySelectorAll(".ima").forEach((move) => {
+          let moving_value = move.getAttribute("data-value");
+          let x = (e.clientX * moving_value) / 250;
+          let y = (e.clientY * moving_value) / 200;
+          move.style.transform = `translateX(${x}px) translateY(${y}px)`;
+        });
+      });
+    </script>
+  </body>
+</html>
