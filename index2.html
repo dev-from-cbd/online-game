@@ -1,0 +1,199 @@
+<!-- --------------------------------- -->
+<!--                                   -->
+<!-- This HTML5 Code developed by      -->
+<!-- Oleg Gribanov and ChatGPT :: 2023 -->
+<!--                                   -->
+<!-- --------------------------------- -->
+
+<!-- This line declares that the following code is written in HTML5 -->
+<!DOCTYPE html>
+
+<!-- This is an HTML document that defines the structure and content of a webpage -->
+<!-- This line specifies the language of the document, which is English in this case -->
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <!-- This line specifies the character encoding of the document as UTF-8 -->
+    <meta charset="UTF-8" />
+
+    <!-- This line sets the compatibility mode of the document to the latest version of Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- This line specifies the viewport settings for the page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This line sets the title of the page to "Game" -->
+    <title>Game</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="fav.png" />
+
+    <!-- Stylesheets -->
+    <style>
+      /* ----------------------------------- */
+      /*                                     */
+      /*  This CSS3 Code developed           */
+      /*  by Oleg Gribanov & ChatGPT :: 2023 */
+      /*                                     */
+      /* ----------------------------------- */
+      /* This line imports the Font Awesome icon library from a CDN */
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
+      /* This line imports the Google Font, Roboto, with various font weights and styles */
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+      /* This CSS rule sets the background image of the body and positions it at the center and fixed on the page */
+      body {
+        background: url("1.png") no-repeat center/cover fixed;
+      }
+
+      /* This CSS rule sets the styling for the header element, which is fixed at the top of the page and has a white background with transparency */
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10%;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        border-bottom: 0.5rem solid white;
+      }
+
+      /* This CSS rule sets the styling for the h1 element within the header, which has a font size of 2rem and uses the "Roboto" font family */
+      h1 {
+        font-size: 2rem;
+        text-align: center;
+
+        font-family: "Roboto", sans-serif;
+      }
+
+      /* This CSS rule sets the styling for the content div, which is absolutely positioned in the center of the page and has a white background with transparency and a border */
+      .btn-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90vw;
+        height: 70vh;
+        background-color: rgba(255, 255, 255, 0.97);
+        border-radius: 1rem;
+        border: 0.5rem solid white;
+      }
+
+      .btn {
+        width: 20vw;
+        height: 20vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 2rem;
+
+        font-family: "Roboto", sans-serif;
+
+        border-radius: 0.8rem;
+        border: 0.5rem solid lightgreen;
+      }
+
+      .btn:hover {
+        color: darkblue;
+        background: lightgray;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+      }
+
+      /* This CSS rule sets the styling for the footer element, which is fixed at the bottom of the page and has a white background with transparency */
+      footer {
+        position: fixed; /* Set the position of the footer to fixed */
+        bottom: 0; /* Set the bottom of the footer to 0 pixels from the bottom of the page */
+        left: 0; /* Set the left of the footer to 0 pixels from the left of the page */
+        width: 100%; /* Set the width of the footer to 100% of the page width */
+        height: 10%; /* Set the height of the footer to 10% of the page height */
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.7
+        ); /* Set the background color of the footer to white with 0.7 opacity */
+        display: flex; /* Set the display of the footer to a flexbox container */
+        justify-content: center; /* Center the content horizontally within the footer */
+        align-items: center; /* Center the content vertically within the footer */
+        z-index: 1; /* Set the z-index of the footer to 1 to ensure it is on top of other elements with lower z-index values */
+        border-top: 0.5rem solid white; /* Set a white 0.5rem border on the top of the footer */
+      }
+
+      p {
+        /* This CSS rule sets the font size, text alignment, and font family for paragraphs in the HTML */
+        font-size: 1rem;
+        text-align: center;
+
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+  </head>
+
+  <!-- The <body> tag represents the content of the webpage that is visible to the user -->
+  <body>
+    <!-- The <header> tag represents the introductory content at the beginning of a section or webpage -->
+    <header>
+      <!-- The <h1> tag represents the main heading of the webpage -->
+      <h1 id="result">Choose</h1>
+    </header>
+
+    <!-- The <main> tag represents the main content of the webpage -->
+    <main>
+      <!-- The <div> tag represents a generic container for content -->
+      <div class="btn-wrapper">
+        <button class="btn" id="option1">Вар 1</button>
+        <button class="btn" id="option2">Вар 2</button>
+      </div>
+    </main>
+
+    <!-- The <footer> tag represents the footer content of the webpage -->
+    <footer>
+      <!-- This line creates a footer element with the text "Developed by Oleg Gribanov and ChatGPT :: 2023" -->
+      <p>
+        &copy; Developed by
+        <a href="http://linkedin.com/in/neoguru" target="_blank">Oleg</a>
+        <a href="http://github.com/dev-from-cbd" target="_blank">Gribanov</a>
+        and ChatGPT ||
+
+        <!-- These <i> tags represent font awesome icons for HTML, CSS, and JavaScript respectively -->
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-square-js"></i> || 2023
+      </p>
+    </footer>
+
+    <!-- The <script> tag allows for the insertion of JavaScript code into the webpage -->
+    <script>
+      /* ----------------------------------- */
+      /*                                     */
+      /*  This JavaScript Code developed     */
+      /*  by Oleg Gribanov & ChatGPT :: 2023 */
+      /*                                     */
+      /* ----------------------------------- */
+      // Get the buttons
+      const option1 = document.getElementById("option1");
+      const option2 = document.getElementById("option2");
+
+      // Add event listeners to the buttons
+      option1.addEventListener("click", () => {
+        document.getElementById("result").textContent = "You won!";
+      });
+
+      option2.addEventListener("click", () => {
+        document.getElementById("result").textContent = "You lost!";
+      });
+    </script>
+  </body>
+</html>
