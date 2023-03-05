@@ -1,46 +1,142 @@
+<!-- --------------------------------- -->
+<!--                                   -->
+<!-- This HTML5 Code developed by      -->
+<!-- Oleg Gribanov and ChatGPT :: 2023 -->
+<!--                                   -->
+<!-- --------------------------------- -->
+
+<!-- 🇦🇺 Beginning of HTML document -->
+<!-- 🇷🇺 Начало HTML-документа -->
 <!DOCTYPE html>
+
+<!-- 🇦🇺 HTML element defining the document language -->
+<!-- 🇷🇺 HTML-элемент, определяющий язык документа -->
+
 <html lang="en">
   <head>
+    <!-- 🇦🇺 Meta tags with information about the document -->
+    <!-- 🇷🇺 Метатеги с информацией о документе -->
+
     <meta charset="UTF-8" />
+    <!-- 🇦🇺 Document encoding is UTF-8 -->
+    <!-- 🇷🇺 Кодировка документа UTF-8 -->
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- 🇦🇺 Compatibility setting with IE browser -->
+    <!-- 🇷🇺 Настройка совместимости с браузером IE -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 🇦🇺 Setting display parameters for devices with different screen resolutions -->
+    <!-- 🇷🇺Настройка параметров отображения страницы на устройствах с разными разрешениями экранов -->
 
     <title>Text-based RPG Game with JavaScript</title>
+    <!-- 🇦🇺 Document title -->
+    <!-- 🇷🇺 Заголовок документа -->
+
     <link rel="stylesheet" href="final.css" />
+    <!-- 🇦🇺 External CSS file link -->
+
+    <link rel="icon" type="image/png" href="fav.png" />
+    <!-- 🇦🇺 Start of the code of the Favicon -->
   </head>
 
   <body>
-    <div id="game">
-      <div id="stats">
-        <span class="stat"
-          >XP: <strong><span id="xpText">0</span></strong></span
-        >
-        <span class="stat"
-          >Health: <strong><span id="healthText">100</span></strong></span
-        >
-        <span class="stat"
-          >Gold: <strong><span id="goldText">50</span></strong></span
-        >
+    <!-- 🇦🇺 The <body> tag represents the content of the webpage that is visible to the user -->
+
+    <header>
+      <!-- 🇦🇺 The <header> tag represents the introductory content at the beginning of a section or webpage -->
+
+      <h1>Text-based RPG Game with JavaScript</h1>
+      <!-- 🇦🇺 The <h1> tag represents the main heading of the webpage -->
+    </header>
+
+    <main>
+      <!-- 🇦🇺 The <main> tag represents the main content of the webpage -->
+
+      <div id="game">
+        <!-- 🇷🇺 HTML-элемент, содержащий всю игру -->
+
+        <div id="stats">
+          <!-- 🇷🇺 Элемент, отображающий статистику игрока -->
+
+          <span class="stat"
+            ><!-- 🇷🇺 Линия статистики: опыт -->XP:
+            <strong><span id="xpText">0</span></strong></span
+          >
+          <span class="stat">
+            <!-- 🇷🇺 Линия статистики: здоровье -->Health:
+            <strong><span id="healthText">100</span></strong></span
+          >
+          <span class="stat">
+            <!-- 🇷🇺 Линия статистики: золото -->Gold:
+            <strong><span id="goldText">50</span></strong></span
+          >
+        </div>
+
+        <div id="controls">
+          <!-- 🇷🇺 Элемент, содержащий кнопки управления игрой -->
+
+          <button id="button1">Go to store</button>
+          <!-- 🇷🇺 Первая кнопка для перехода в магазин -->
+
+          <button id="button2">Go to cave</button>
+          <!-- 🇷🇺 Вторая кнопка для перехода в пещеру -->
+
+          <button id="button3">Fight Zomby</button>
+          <!-- 🇷🇺 Кнопка для начала битвы с Зомби -->
+        </div>
+        <!-- 🇷🇺 Элемент, отображающий статистику монстра -->
+
+        <div id="monsterStats">
+          <!-- 🇷🇺 Линия статистики: имя монстра -->
+
+          <span class="stat"
+            >Monster Name: <strong><span id="monsterName"></span></strong
+          ></span>
+
+          <!-- 🇷🇺 Линия статистики: здоровье монстра -->
+
+          <span class="stat"
+            >Health: <strong><span id="monsterHealth"></span></strong
+          ></span>
+        </div>
+
+        <!-- 🇷🇺 Элемент, содержащий текст игры -->
+
+        <div id="text">
+          Welcome to Zomby Repeller. You must defeat the Zomby that is
+          preventing people from leaving the town. You are in the town square.
+          Where do you want to go? Use the buttons above.
+        </div>
       </div>
-      <div id="controls">
-        <button id="button1">Go to store</button>
-        <button id="button2">Go to cave</button>
-        <button id="button3">Fight dragon</button>
-      </div>
-      <div id="monsterStats">
-        <span class="stat"
-          >Monster Name: <strong><span id="monsterName"></span></strong
-        ></span>
-        <span class="stat"
-          >Health: <strong><span id="monsterHealth"></span></strong
-        ></span>
-      </div>
-      <div id="text">
-        Welcome to Dragon Repeller. You must defeat the dragon that is
-        preventing people from leaving the town. You are in the town square.
-        Where do you want to go? Use the buttons above.
-      </div>
-    </div>
+    </main>
+
+    <footer>
+      <!-- The <footer> tag represents the footer content of the webpage -->
+
+      <p>
+        <!-- This line creates a footer element -->
+        &copy; Developed by
+        <a href="http://linkedin.com/in/neoguru" target="_blank">Oleg</a>
+        <a href="http://github.com/dev-from-cbd" target="_blank">Gribanov</a>
+        and ChatGPT ||
+
+        <i class="fa-brands fa-html5"></i>
+        <!-- These <i> tags represent font awesome icons for HTML, CSS, and JavaScript respectively -->
+
+        <i class="fa-brands fa-css3-alt"></i>
+
+        <!-- These <i> tags represent font awesome icons for HTML, CSS, and JavaScript respectively -->
+
+        <i class="fa-brands fa-square-js"></i> || 2023
+      </p>
+      <!-- Иконка для CSS -->
+    </footer>
+
     <script src="final.js"></script>
+    <!-- The <script> tag allows for the insertion of JavaScript code into the webpage -->
+    <!-- 🇷🇺 Подключение внешнего JavaScript-файла -->
   </body>
+  <!-- 🇷🇺 Окончание тела документа  -->
 </html>
+<!-- 🇷🇺 Конец HTML-документа -->
