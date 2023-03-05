@@ -5,25 +5,26 @@
 /*                                     */
 /* ----------------------------------- */
 
-/* This line imports the Font Awesome icon library from a CDN */
+/* 🇦🇺 This line imports the Font Awesome icon library from a CDN */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
 
-/* This line imports the Google Font, Roboto, with various font weights and styles */
+/* 🇦🇺 This line imports the Google Font, Roboto, with various font weights and styles */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-/* Обнуление (или сброс) каскадных стилей - это техника, которая используется для сброса всех значений по умолчанию стилей браузера, чтобы иметь полный контроль над оформлением веб-страницы. Обнуление каскадных стилей может помочь избежать непредвиденных результатов, вызванных различными настройками по умолчанию браузера, такими как отступы, размеры шрифтов и т.д. */
+/* 🇦🇺 This is the CSS code that resets all the default CSS styles that come with browsers to have full control over the look and feel of the web page. This reset can help avoid unexpected results caused by different default browser settings, such as margins, font sizes, etc. */
+/* 🇷🇺 Обнуление (или сброс) каскадных стилей - это техника, которая используется для сброса всех значений по умолчанию стилей браузера, чтобы иметь полный контроль над оформлением веб-страницы. Обнуление каскадных стилей может помочь избежать непредвиденных результатов, вызванных различными настройками по умолчанию браузера, такими как отступы, размеры шрифтов и т.д. */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* CSS code for setting the background color of the body element to dark blue */
+/* 🇦🇺 CSS code for setting the background color of the body element to dark blue */
 body {
   background-color: darkblue;
   background: url("1.png") no-repeat center/cover fixed;
 }
 
-/* This CSS rule sets the styling for the header element, which is fixed at the top of the page and has a white background with transparency */
+/* 🇦🇺 This CSS rule sets the styling for the header element, which is fixed at the top of the page and has a white background with transparency */
 header {
   position: fixed;
   top: 0;
@@ -38,7 +39,7 @@ header {
   border-bottom: 0.5rem solid white;
 }
 
-/* This CSS rule sets the styling for the h1 element within the header, which has a font size of 2rem and uses the "Roboto" font family */
+/* 🇦🇺 This CSS rule sets the styling for the h1 element within the header, which has a font size of 2rem and uses the "Roboto" font family */
 h1 {
   font-size: 2rem;
   text-align: center;
@@ -62,14 +63,14 @@ main {
   border: 0.5rem solid white;
 }
 
-/* CSS code for setting the background color of the text element to black and the text color to white */
+/* 🇦🇺 CSS code for setting the background color of the text element to black and the text color to white */
 #text {
   background-color: black;
   color: white;
   padding: 10px;
 }
 
-/* CSS code for styling the game element, including setting its max width and height, background color, and centering it horizontally */
+/* 🇦🇺 CSS code for styling the game element, including setting its max width and height, background color, and centering it horizontally */
 #game {
   max-width: 500px;
   max-height: 400px;
@@ -79,20 +80,32 @@ main {
   padding: 10px;
 }
 
-/* CSS code for styling the controls element, including adding a black border and padding */
+/* 🇦🇺 CSS code for styling the controls element, including adding a black border and padding */
 #controls {
   border: 1px black solid;
   padding: 5px;
 }
 
-/* CSS code for styling the stats element, including adding a black border, setting the text color to black, and adding padding */
+#button1 {
+  cursor: pointer;
+}
+
+#button2 {
+  cursor: pointer;
+}
+
+#button3 {
+  cursor: pointer;
+}
+
+/* 🇦🇺 CSS code for styling the stats element, including adding a black border, setting the text color to black, and adding padding */
 #stats {
   border: 1px black solid;
   color: black;
   padding: 5px;
 }
 
-/* CSS code for styling the monsterStats element, including setting it to display:none so it is hidden, adding a black border, setting the text color to white, adding padding, and setting the background color to red */
+/* 🇦🇺 CSS code for styling the monsterStats element, including setting it to display:none so it is hidden, adding a black border, setting the text color to white, adding padding, and setting the background color to red */
 #monsterStats {
   display: none;
   border: 1px black solid;
@@ -101,33 +114,33 @@ main {
   background-color: red;
 }
 
-/* CSS code for styling the stat class, including adding padding to the right side */
+/* 🇦🇺 CSS code for styling the stat class, including adding padding to the right side */
 .stat {
   padding-right: 10px;
 }
 
-/* This CSS rule sets the styling for the footer element, which is fixed at the bottom of the page and has a white background with transparency */
+/* 🇦🇺 This CSS rule sets the styling for the footer element, which is fixed at the bottom of the page and has a white background with transparency */
 footer {
-  position: fixed; /* Set the position of the footer to fixed */
-  bottom: 0; /* Set the bottom of the footer to 0 pixels from the bottom of the page */
-  left: 0; /* Set the left of the footer to 0 pixels from the left of the page */
-  width: 100%; /* Set the width of the footer to 100% of the page width */
-  height: 10%; /* Set the height of the footer to 10% of the page height */
+  position: fixed; /* 🇦🇺 Set the position of the footer to fixed */
+  bottom: 0; /* 🇦🇺 Set the bottom of the footer to 0 pixels from the bottom of the page */
+  left: 0; /* 🇦🇺 Set the left of the footer to 0 pixels from the left of the page */
+  width: 100%; /* 🇦🇺 Set the width of the footer to 100% of the page width */
+  height: 10%; /* 🇦🇺 Set the height of the footer to 10% of the page height */
   background-color: rgba(
     255,
     255,
     255,
     0.7
-  ); /* Set the background color of the footer to white with 0.7 opacity */
-  display: flex; /* Set the display of the footer to a flexbox container */
-  justify-content: center; /* Center the content horizontally within the footer */
-  align-items: center; /* Center the content vertically within the footer */
-  z-index: 1; /* Set the z-index of the footer to 1 to ensure it is on top of other elements with lower z-index values */
-  border-top: 0.5rem solid white; /* Set a white 0.5rem border on the top of the footer */
+  ); /* 🇦🇺 Set the background color of the footer to white with 0.7 opacity */
+  display: flex; /* 🇦🇺 Set the display of the footer to a flexbox container */
+  justify-content: center; /* 🇦🇺 Center the content horizontally within the footer */
+  align-items: center; /* 🇦🇺 Center the content vertically within the footer */
+  z-index: 1; /* 🇦🇺 Set the z-index of the footer to 1 to ensure it is on top of other elements with lower z-index values */
+  border-top: 0.5rem solid white; /* 🇦🇺 Set a white 0.5rem border on the top of the footer */
 }
 
 p {
-  /* This CSS rule sets the font size, text alignment, and font family for paragraphs in the HTML */
+  /* 🇦🇺 This CSS rule sets the font size, text alignment, and font family for paragraphs in the HTML */
   font-size: 1rem;
   text-align: center;
 
@@ -135,35 +148,121 @@ p {
 }
 
 @media only screen and (max-width: 320px) {
-  /* Дополнительный CSS для устройств с максимальной шириной экрана 320px */
+  /* 🇦🇺 Comment in English is needed here ::: Тут нужен комментарий на английском языке */
+  /* 🇷🇺 Дополнительный CSS для устройств с максимальной шириной экрана 320px */
   body {
     background-color: yellow;
+  }
+
+  /* 🇦🇺 CSS code for adjusting the font size of the h1 element within the header for smaller screens */
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  /* 🇦🇺 CSS code for adjusting the width and height of the main element for smaller screens */
+  main {
+    width: 95vw;
+    height: 60vh;
+  }
+
+  /* 🇦🇺 CSS code for adjusting the max width and height of the game element for smaller screens */
+  #game {
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+  /* 🇦🇺 CSS code for adjusting the font size of the text element for smaller screens */
+  #text {
+    font-size: 0.8rem;
+  }
+
+  /* 🇦🇺 CSS code for adjusting the font size of the controls element for smaller screens */
+  #controls {
+    font-size: 0.8rem;
+  }
+
+  /* 🇦🇺 CSS code for adjusting the font size of the stats element for smaller screens */
+  #stats {
+    font-size: 0.8rem;
+  }
+
+  /* 🇦🇺 CSS code for styling the monsterStats element, including setting it to display:none so it is hidden, and positioning it at the top right corner of the game element */
+  #monsterStats {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    padding: 5px;
+    border: 1px black solid;
+  }
+
+  /* 🇦🇺 CSS code for styling the attack button, including setting the background color to green and adding a box-shadow effect */
+  .attack {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    box-shadow: 0px 5px 0px darkgreen;
+    border-radius: 5px;
+  }
+
+  /* 🇦🇺 CSS code for styling the new game button, including setting the background color to red and adding a box-shadow effect */
+  .new-game {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    box-shadow: 0px 5px 0px darkred;
+    border-radius: 5px;
+  }
+
+  /* 🇦🇺 CSS code for styling the attack button, including setting the background color to yellow and adding a box-shadow effect */
+  .heal {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    box-shadow: 0px 5px 0px darkgoldenrod;
+    border-radius: 5px;
   }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  /* Дополнительный CSS для устройств с шириной экрана от 321px до 480px */
+  /* 🇦🇺 Comment in English is needed here ::: Тут нужен комментарий на английском языке */
+  /* 🇷🇺 Дополнительный CSS для устройств с шириной экрана от 321px до 480px */
   body {
     background-color: pink;
   }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* Дополнительный CSS для устройств с шириной экрана от 481px до 768px */
+  /* 🇦🇺 Comment in English is needed here ::: Тут нужен комментарий на английском языке */
+  /* 🇷🇺 Дополнительный CSS для устройств с шириной экрана от 481px до 768px */
   body {
     background-color: blue;
   }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  /* Дополнительный CSS для устройств с шириной экрана от 769px до 1024px */
+  /* 🇦🇺 Comment in English is needed here ::: Тут нужен комментарий на английском языке */
+  /* 🇷🇺 Дополнительный CSS для устройств с шириной экрана от 769px до 1024px */
   body {
     background-color: green;
   }
 }
 
 @media only screen and (min-width: 1025px) {
-  /* Дополнительный CSS для устройств с шириной экрана больше 1024px */
+  /* 🇦🇺 Comment in English is needed here ::: Тут нужен комментарий на английском языке */
+  /* 🇷🇺 Дополнительный CSS для устройств с шириной экрана больше 1024px */
   body {
     background-color: purple;
   }
