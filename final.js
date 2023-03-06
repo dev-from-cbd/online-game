@@ -5,6 +5,32 @@
 /*                                     */
 /* ----------------------------------- */
 
+/*
+let xp = 0;
+let health = 100;
+let gold = 50;
+let currentWeapon = 0;
+let fighting;
+let monsterHealth;
+let inventory = ["stick"];
+const button1 = document.querySelector("#button1");
+const button2 = document.querySelector("#button2");
+const button3 = document.querySelector("#button3");
+const text = document.querySelector("#text");
+const xpText = document.querySelector("#xpText");
+const healthText = document.querySelector("#healthText");
+const goldText = document.querySelector("#goldText");
+const monsterStats = document.querySelector("#monsterStats");
+const monsterNameText = document.querySelector("#monsterName");
+const monsterHealthText = document.querySelector("#monsterHealth");
+button1.onclick = goStore;
+button2.onclick = goCave;
+button3.onclick = fightDragon;
+function functionName(){
+
+}
+*/
+
 let xp = 0; /* 🇦🇺 This code contains both variable declaration and definition. The game starts with zero experience.
 🇷🇺 Определяем переменную xp и присваиваем ей значение 0. Этот код содержит как объявление, так и определение переменной. Игра начинается с нулевым опытом. */
 let health = 100; /* 🇦🇺 This code contains both variable declaration and definition. The game starts with health equal to one hundred points. 
@@ -43,11 +69,20 @@ const text =
     "#text"
   ); /* 🇦🇺 This line of code declares a constant variable text and assigns it an HTML element that matches the CSS selector #text. This is done using the querySelector() method of the document object, which allows you to find the first element that matches the specified selector. It can be inferred that there is an element with id="text" on the web page, and this code allows you to get a reference to it.
 🇷🇺 Определяем константу text и присваиваем ей элемент с id = "text". То есть, на данной строке кода объявляется константа text и присваивается ей HTML-элемент, соответствующий CSS-селектору #text. Для этого используется метод querySelector() объекта document, который позволяет найти первый элемент, удовлетворяющий указанному селектору. На веб-странице существует элемент с id="text", и данный код позволяет получить ссылку на него. */
-const xpText = document.querySelector("#xpText"); /* 🇦🇺 This line of code declares a constant variable xpText and assigns it an HTML element that matches the CSS selector #xpText. This is done using the querySelector() method of the document object, which allows you to find the first element that matches the specified selector. It can be inferred that there is an element with id="xpText" on the web page, and this code allows you to get a reference to it.
+const xpText =
+  document.querySelector(
+    "#xpText"
+  ); /* 🇦🇺 This line of code declares a constant variable xpText and assigns it an HTML element that matches the CSS selector #xpText. This is done using the querySelector() method of the document object, which allows you to find the first element that matches the specified selector. It can be inferred that there is an element with id="xpText" on the web page, and this code allows you to get a reference to it.
 🇷🇺 Определяем константу xpText и присваиваем ей элемент с id = "xpText". То есть, на данной строке кода объявляется константа xpText и присваивается ей HTML-элемент, соответствующий CSS-селектору #xpText. Для этого используется метод querySelector() объекта document, который позволяет найти первый элемент, удовлетворяющий указанному селектору. На веб-странице существует элемент с id="xpText", и данный код позволяет получить ссылку на него. */
-const healthText = document.querySelector("#healthText"); /* 🇦🇺 This line of code declares a constant variable healthText and assigns it an HTML element that matches the CSS selector #healthText. This is done using the querySelector() method of the document object, which allows you to find the first element that matches the specified selector. It can be inferred that there is an element with id="healthText" on the web page, and this code allows you to get a reference to it.
+const healthText =
+  document.querySelector(
+    "#healthText"
+  ); /* 🇦🇺 This line of code declares a constant variable healthText and assigns it an HTML element that matches the CSS selector #healthText. This is done using the querySelector() method of the document object, which allows you to find the first element that matches the specified selector. It can be inferred that there is an element with id="healthText" on the web page, and this code allows you to get a reference to it.
 🇷🇺 Определяем константу healthText и присваиваем ей элемент с id = "healthText". То есть, на данной строке кода объявляется константа healthText и присваивается ей HTML-элемент, соответствующий CSS-селектору #healthText. Для этого используется метод querySelector() объекта document, который позволяет найти первый элемент, удовлетворяющий указанному селектору. На веб-странице существует элемент с id="healthText", и данный код позволяет получить ссылку на него. */
-const goldText = document.querySelector("#goldText"); /* 🇦🇺 This line of code declares a constant variable goldText and assigns it an HTML element that matches the CSS selector #goldText. This is done using the querySelector() method of the document object, which allows you to find the first element that matches the specified selector. It can be inferred that there is an element with id="goldText" on the web page, and this code allows you to get a reference to it.
+const goldText =
+  document.querySelector(
+    "#goldText"
+  ); /* 🇦🇺 This line of code declares a constant variable goldText and assigns it an HTML element that matches the CSS selector #goldText. This is done using the querySelector() method of the document object, which allows you to find the first element that matches the specified selector. It can be inferred that there is an element with id="goldText" on the web page, and this code allows you to get a reference to it.
 🇷🇺 Определяем константу goldText и присваиваем ей элемент с id = "goldText". То есть, на данной строке кода объявляется константа goldText и присваивается ей HTML-элемент, соответствующий CSS-селектору #goldText. Для этого используется метод querySelector() объекта document, который позволяет найти первый элемент, удовлетворяющий указанному селектору. На веб-странице существует элемент с id="goldText", и данный код позволяет получить ссылку на него. */
 const monsterStats = document.querySelector("#monsterStats"); // 🇦🇺 This line of code declares a constant variable monsterStats and assigns it an HTML element that matches the CSS selector #monsterStats. This is done using the querySelector() method of the document object, which allows you to find the first element that matches the specified selector. It can be inferred that there is an element with id="monsterStats" on the web page, and this code allows you to get a reference to it.
 // 🇷🇺 Определяем константу monsterStats и присваиваем ей элемент с id = "monsterStats". То есть, на данной строке кода объявляется константа monsterStats и присваивается ей HTML-элемент, соответствующий CSS-селектору #monsterStats. Для этого используется метод querySelector() объекта document, который позволяет найти первый элемент, удовлетворяющий указанному селектору. На веб-странице существует элемент с id="monsterStats", и данный код позволяет получить ссылку на него.
