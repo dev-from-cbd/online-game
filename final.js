@@ -26,9 +26,7 @@ const monsterHealthText = document.querySelector("#monsterHealth");
 button1.onclick = goStore;
 button2.onclick = goCave;
 button3.onclick = fightDragon;
-function functionName(){
-
-}
+const weapon = []
 */
 
 let xp = 0; /* 🇦🇺 This code contains both variable declaration and definition. The game starts with zero experience.
