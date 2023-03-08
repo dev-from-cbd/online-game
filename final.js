@@ -5,30 +5,6 @@
 /*                                     */
 /* ----------------------------------- */
 
-/*
-let xp = 0;
-let health = 100;
-let gold = 50;
-let currentWeapon = 0;
-let fighting;
-let monsterHealth;
-let inventory = ["stick"];
-const button1 = document.querySelector("#button1");
-const button2 = document.querySelector("#button2");
-const button3 = document.querySelector("#button3");
-const text = document.querySelector("#text");
-const xpText = document.querySelector("#xpText");
-const healthText = document.querySelector("#healthText");
-const goldText = document.querySelector("#goldText");
-const monsterStats = document.querySelector("#monsterStats");
-const monsterNameText = document.querySelector("#monsterName");
-const monsterHealthText = document.querySelector("#monsterHealth");
-button1.onclick = goStore;
-button2.onclick = goCave;
-button3.onclick = fightDragon;
-const weapon = []
-*/
-
 let xp = 0; /* 🇦🇺 This code contains both variable declaration and definition. The game starts with zero experience.
 🇷🇺 Определяем переменную xp и присваиваем ей значение 0. Этот код содержит как объявление, так и определение переменной. Игра начинается с нулевым опытом. */
 let health = 100; /* 🇦🇺 This code contains both variable declaration and definition. The game starts with health equal to one hundred points. 
@@ -203,8 +179,10 @@ button2.onclick = goCave;
 button3.onclick = fightDragon;
 
 function update(location) {
-  monsterStats.style.display = "none"; // 🇦🇺 Comment in English is needed here ::: Тут нужен комментарий на английском языке
-  // 🇷🇺 Скрыть панель с информацией о монстре
+  /* 🇦🇺 Iit is a generic function. The function takes a single parameter location, which is an object containing various properties like button text, button functions, and text. The function updates the text and functions of three buttons and a text block based on the values specified in the location object. The function is not specific to any particular task or application, and can be used in a generic way to update buttons and text based on the properties of an object passed as a parameter.
+  🇷🇺 Это обобщённая функция. Она принимает единственный параметр location, который является объектом, содержащим различные свойства, такие как текст кнопки, функции кнопок и текст. Функция обновляет текст и функции трёх кнопок и блока текста на основе значений, указанных в объекте location. Функция не привязана к какой-либо конкретной задаче или приложению и может использоваться обобщённым способом для обновления кнопок и текста на основе свойств объекта, переданного в качестве параметра. */
+  monsterStats.style.display = "none"; /* 🇦🇺 Hide monster information panel.
+  🇷🇺 Скрыть панель с информацией о монстре. */
   button1.innerText = location["button text"][0]; // 🇦🇺 Comment in English is needed here ::: Тут нужен комментарий на английском языке
   // 🇷🇺 Изменить текст на первой кнопке на текст, указанный в объекте location
   button2.innerText = location["button text"][1]; // 🇦🇺 Comment in English is needed here ::: Тут нужен комментарий на английском языке
@@ -218,12 +196,14 @@ function update(location) {
   button3.onclick = location["button functions"][2]; // 🇦🇺 Comment in English is needed here ::: Тут нужен комментарий на английском языке
   // 🇷🇺 Назначить функцию из массива button functions объекта location на третью кнопку
   text.innerText = location.text; // 🇦🇺 Comment in English is needed here ::: Тут нужен комментарий на английском языке
-  // 🇷🇺 Изменить текст в блоке text на текст, указанный в объекте location
+  // 🇷🇺 Изменить текст в блоке text на текст, указанный в объекте location.
 }
 
 function goTown() {
-  update(locations[0]); // 🇦🇺 Comment in English is needed here ::: Тут нужен комментарий на английском языке
-  // 🇷🇺 Изменить текущее местоположение на город
+  /* 🇦🇺 This function is not generic. It is specifically related to going to the town and calls the update function with locations[0] object, which likely contains information about the town location, and updates the interface elements on the page corresponding to the new location.
+🇷🇺 Эта функция не является общей. Она явно связана с переходом в город и вызывает функцию update с передачей объекта locations[0], который, вероятно, содержит информацию о местоположении города, и вызывает обновление элементов интерфейса на странице, соответствующих новому местоположению. */
+  update(locations[0]); /* 🇦🇺 Change the current location to the town.
+🇷🇺 Изменить текущее местоположение на город. */
 }
 
 function goStore() {
