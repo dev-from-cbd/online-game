@@ -80,20 +80,17 @@ main {
   padding: 10px;
 }
 
-/* 🇦🇺 CSS code for styling the controls element, including adding a black border and padding */
+/* 🇦🇺 CSS code for styling the controls element, including adding a border and padding using rem units.
+🇷🇺 CSS код для стилизации элемента управления, включая добавление границы и отступа, используя единицы измерения rem. */
 #controls {
-  border: 1px black solid;
-  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border: 0.0625rem solid black;
+  padding: 0.3125rem;
 }
 
-#button1 {
-  cursor: pointer;
-}
-
-#button2 {
-  cursor: pointer;
-}
-
+#button1,
+#button2,
 #button3 {
   cursor: pointer;
 }
@@ -103,6 +100,8 @@ main {
   border: 1px black solid;
   color: black;
   padding: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* 🇦🇺 CSS code for styling the monsterStats element, including setting it to display:none so it is hidden, adding a black border, setting the text color to white, adding padding, and setting the background color to red */
@@ -295,8 +294,11 @@ p {
   }
 
   #controls {
-    margin-top: 10px;
-    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.0625rem solid black;
+    padding: 0.3125rem;
   }
 
   #button1,
