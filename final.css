@@ -326,6 +326,18 @@ p {
     border: none;
   }
 
+  #stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  #stats div {
+    margin-bottom: 5px;
+  }
+
   .stat {
     font-size: 0.8rem;
   }
