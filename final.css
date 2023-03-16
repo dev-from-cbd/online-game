@@ -291,7 +291,7 @@ p {
     align-items: center;
     justify-content: center;
 
-    height: calc(100vh - 20%);
+    height: calc(100vh - 40%);
 
     width: 100%;
     border: 0.2rem solid white;

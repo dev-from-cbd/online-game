@@ -5,13 +5,13 @@
 /*                                     */
 /* ----------------------------------- */
 
+@import url("https://fonts.cdnfonts.com/css/gotham-rounded");
+
 /* 🇦🇺 This line imports the Font Awesome icon library from a CDN */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
 
 /* 🇦🇺 This line imports the Google Font, Roboto, with various font weights and styles */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-@import url("https://fonts.cdnfonts.com/css/gotham-rounded");
 
 /* 🇦🇺 This is the CSS code that resets all the default CSS styles that come with browsers to have full control over the look and feel of the web page. This reset can help avoid unexpected results caused by different default browser settings, such as margins, font sizes, etc. 
 🇷🇺 Обнуление (или сброс) каскадных стилей - это техника, которая используется для сброса всех значений по умолчанию стилей браузера, чтобы иметь полный контроль над оформлением веб-страницы. Обнуление каскадных стилей может помочь избежать непредвиденных результатов, вызванных различными настройками по умолчанию браузера, такими как отступы, размеры шрифтов и т.д. */
@@ -57,7 +57,7 @@ header {
 }
 
 /* 🇦🇺 This CSS rule sets the styling for the h1 element within the header, which has a font size of 2rem and uses the "Roboto" font family */
-h1 {
+.h1 {
   font-size: 2rem;
   text-align: center;
 
@@ -67,17 +67,38 @@ h1 {
 main {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  padding: 0;
+  margin: 0;
+
+  justify-content: center;
+
   width: 90vw;
   height: 70vh;
+
   background-color: rgba(255, 255, 255, 0.97);
   border-radius: 1rem;
   border: 0.5rem solid white;
+
+  font-family: "Gotham Rounded", sans-serif;
+}
+
+.container {
+  width: 40rem;
+  max-width: 80%;
+  background: lightgray;
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+}
+
+.btn {
+  font-family: "Gotham Rounded", sans-serif;
 }
 
 /* 🇦🇺 This CSS rule sets the styling for the footer element, which is fixed at the bottom of the page and has a white background with transparency */
@@ -100,7 +121,7 @@ footer {
   border-top: 0.5rem solid white; /* 🇦🇺 Set a white 0.5rem border on the top of the footer */
 }
 
-p {
+.copy {
   /* 🇦🇺 This CSS rule sets the font size, text alignment, and font family for paragraphs in the HTML */
   font-size: 1rem;
   text-align: center;
