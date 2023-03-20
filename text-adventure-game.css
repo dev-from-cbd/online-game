@@ -24,7 +24,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* font-family: "Gotham Rounded", sans-serif; */
 }
 
 /* 🇦🇺 CSS code for setting the background color of the body element to dark blue */
@@ -67,7 +66,9 @@ header {
 main {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
+
+  justify-content: center;
+
   align-items: center;
   position: absolute;
   top: 50%;
@@ -76,8 +77,6 @@ main {
 
   padding: 0;
   margin: 0;
-
-  justify-content: center;
 
   width: 90vw;
   height: 70vh;
@@ -107,6 +106,7 @@ main {
 
 .btn {
   font-family: "Gotham Rounded", sans-serif;
+
   background-color: hsl(200, 100%, 50%);
   border: 1px solid hsl(200, 100%, 30%);
   border-radius: 5px;
@@ -252,7 +252,6 @@ footer {
   /* 🇦🇺 CSS code for styling the footer.
   🇷🇺 CSS-код для стилизации футера. */
   footer {
-    /* font-size: 1rem; */
     text-align: center;
     margin-top: 10px;
     color: white;
