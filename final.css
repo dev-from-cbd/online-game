@@ -21,7 +21,7 @@
 /* 🇦🇺 CSS code for setting the background color of the body element to dark blue */
 body {
   background-color: darkblue;
-  background: url("1.png") no-repeat center/cover fixed;
+  background: url("images/1.png") no-repeat center/cover fixed;
 }
 
 /* 🇦🇺 This CSS rule sets the styling for the header element, which is fixed at the top of the page and has a white background with transparency */
@@ -291,7 +291,7 @@ p {
     align-items: center;
     justify-content: center;
 
-    height: calc(100vh - 65%);
+    height: calc(100vh - 75%);
 
     width: 100%;
     border: 0.2rem solid white;
