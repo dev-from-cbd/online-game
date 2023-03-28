@@ -1387,14 +1387,8 @@ const textNodes = [
     image: "images/97.jpeg",
   },
   {
-    id: 98, // 🇦🇺 ... (id:98)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 98, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
     image: "images/98.jpeg",
   },
