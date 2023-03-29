@@ -1357,7 +1357,7 @@ const textNodes = [
     image: "images/95.jpeg",
   },
   {
-    id: 96, // 🇦🇺 ... (id:96)
+    id: 96, // 🇦🇺 ...
     text: "🇦🇺 ... (96-й блок)",
     options: [
       {
@@ -1372,7 +1372,7 @@ const textNodes = [
     image: "images/96.jpeg",
   },
   {
-    id: 97, // 🇷🇺 ... (id:97)
+    id: 97, // 🇷🇺 ...
     text: "🇷🇺 ... (97-й блок)",
     options: [
       {
