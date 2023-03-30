@@ -86,7 +86,7 @@ const textNodes = [
   },
   {
     id: 2,
-    text: "You must choose the location where you were when the Apocalypse began.",
+    text: "Choose the location where the Apocalypse caught you.",
     options: [
       {
         text: "Office",
@@ -119,11 +119,11 @@ const textNodes = [
     text: "You heard a noise outside the window and decided to see what was happening there. Horrified, you discovered that a zombie attack on living people had begun there! What will you do? Will you run to find out if your friends are among the crowd of zombies, or will you decide to escape by trying to find a safe path?!",
     options: [
       {
-        text: "Run to find friends among the zombies",
+        text: "Run to find friends",
         nextText: 6,
       },
       {
-        text: "You decide to save yourself",
+        text: "You decide to save",
         nextText: 8,
       },
     ],
@@ -146,25 +146,13 @@ const textNodes = [
   },
   {
     id: 6,
-    text: "You've been eaten by zombies!!" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    text: "You've been eaten by zombies!!",
     reStart,
     image: "images/6.jpeg",
   },
   {
     id: 7,
-    text: "Тебя съели зомби!!" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    text: "Тебя съели зомби!!",
     reStart,
     image: "images/7.jpeg",
   },
@@ -173,7 +161,7 @@ const textNodes = [
     text: "You decided to go home because your relatives are there. To protect them and save yourself, you start to think through the details. You tried to call home, but the cellular connection began to act up. Which way home to choose? Go on foot through the city blocks, or take the subway and then take the train from the station, because you live in the suburbs?!",
     options: [
       {
-        text: "Walk straight through the streets",
+        text: "Walk on the streets",
         nextText: 10,
       },
       {
@@ -200,25 +188,13 @@ const textNodes = [
   },
   {
     id: 10,
-    text: "You've been eaten by zombies!!" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    text: "You've been eaten by zombies!!",
     reStart,
     image: "images/10.jpeg",
   },
   {
     id: 11,
-    text: "Тебя съели зомби!!" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    text: "Тебя съели зомби!!",
     reStart,
     image: "images/11.jpeg",
   },
@@ -254,25 +230,13 @@ const textNodes = [
   },
   {
     id: 14,
-    text: "You've been eaten by zombies!!" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    text: "You've been eaten by zombies!!",
     reStart,
     image: "images/14.jpeg",
   },
   {
     id: 15,
-    text: "Тебя съел машинист!!" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    text: "Тебя съел машинист!!",
     reStart,
     image: "images/15.jpeg",
   },
@@ -281,11 +245,11 @@ const textNodes = [
     text: "When the train reached the penultimate station, you realized that the driver was already close. Trains have been running on their own for many years, and drivers were needed simply to control the train. Therefore, the train would have reached the final station, where you need it, but the driver was already approaching your car. What will you choose? Get out of the subway car and walk to the station on foot, or will you start fighting with the driver in the hope of strangling him?!",
     options: [
       {
-        text: "Get out of the subway car",
+        text: "Choke the driver",
         nextText: 18,
       },
       {
-        text: "Choke the driver",
+        text: "Get out of the subway car",
         nextText: 20,
       },
     ],
@@ -308,38 +272,26 @@ const textNodes = [
   },
   {
     id: 18, // Choke the driver
-    text: "The driver ate you!!" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    text: "The driver ate you!!",
     reStart,
     image: "images/18.jpeg",
   },
   {
     id: 19, // Душить машиниста
-    text: "Машинист задушил тебя" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    text: "Машинист задушил тебя",
     reStart,
     image: "images/19.jpeg",
   },
   {
-    id: 20, // 🇦🇺 ... (id:20)
-    text: "🇦🇺 ... (20-й блок)",
+    id: 20, // 🇦🇺 Get off the subway train
+    text: "When you stepped onto the subway platform and saw the train with an infected driver speed off into the tunnel. There were no infected people at this station, but you couldn't stay here. You had to continue your journey home. But how would you get to the train station to catch the train to the suburb where your house is located?",
     options: [
       {
-        text: "... (Текст кнопки №31)",
+        text: "Make your way through the city blocks",
         nextText: 22,
       },
       {
-        text: "... (Текст кнопки №32)",
+        text: "Go through the tunnel",
         nextText: 24,
       },
     ],
@@ -358,46 +310,34 @@ const textNodes = [
         nextText: 25,
       },
     ],
-    image: "21.jpeg",
+    image: "images/21.jpeg",
   },
   {
-    id: 22, // 🇦🇺 ... (id:22)
-    text: "🇦🇺 ... (22-й блок)" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 22, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     reStart,
-    image: "22.jpeg", // Ссылка на 22-ю картинку
+    image: "images/22.jpeg",
   },
   {
     id: 23, // Пойти через кварталы
-    text: "Тебя съели зомби!!" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    text: "Тебя съели зомби!!",
     reStart,
-    image: "23.jpeg",
+    image: "images/23.jpeg",
   },
   {
-    id: 24, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 24, // 🇦🇺 Go through the subway tunnel (id:24)
+    text: "The option of going through the tunnel seemed crazy as you had never been there before, but it turned out to be a lifesaver! You successfully made your way to the train station, where you saw people panicking. They were running back and forth, but the trains were still running. You saw your train smoothly leaving the platform. What now?!",
     options: [
       {
-        text: "... (Текст кнопки №37)",
+        text: "Wait for something",
         nextText: 26,
       },
       {
-        text: "... (Текст кнопки №38)",
+        text: "Jump into the last carriage",
         nextText: 28,
       },
     ],
-    image: "24.jpeg",
+    image: "images/24.jpeg",
   },
   {
     id: 25, // Пойти через тоннель
@@ -412,46 +352,34 @@ const textNodes = [
         nextText: 29,
       },
     ],
-    image: "25.jpeg",
+    image: "images/25.jpeg",
   },
   {
-    id: 26, // 🇦🇺 ... (id:26)
-    text: "🇦🇺 ... (26-й блок)" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 26, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     reStart,
-    image: "26.jpeg", // Ссылка на 26-ю картинку
+    image: "images/26.jpeg",
   },
   {
     id: 27, // Ждать чего-то
-    text: "Ты умер." /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    text: "Ты умер.",
     reStart,
-    image: "27.jpeg",
+    image: "images/27.jpeg",
   },
   {
-    id: 28, // 🇦🇺 ... (id:28)
-    text: "🇦🇺 ... (28-й блок)",
+    id: 28, // Get on the last subway carriage
+    text: "You managed to jump into the last car just in time. Your train slowly departed from the city. Outside the window, you saw some kind of fights going on. You already understood that something terrible was happening! The cell phone connection still didn't work, so you didn't know what was happening with your family. As you were traveling to your station, a fight broke out in the last car, and a fire started. You need to decide quickly whether to save yourself and run to the front of the train, or go to the back car and figure out who started the fire in the train.",
     options: [
       {
-        text: "... (Текст кнопки №43)",
+        text: "Stay in the tail of the train",
         nextText: 30,
       },
       {
-        text: "... (Текст кнопки №44)",
+        text: "Head towards the front of the train",
         nextText: 32,
       },
     ],
-    image: "28.jpeg", // Ссылка на 28-ю картинку
+    image: "images/28.jpeg",
   },
   {
     id: 29, // Запрыгнуть в последний вагон
@@ -466,53 +394,41 @@ const textNodes = [
         nextText: 33,
       },
     ],
-    image: "29.jpeg",
+    image: "images/29.jpeg",
   },
   {
-    id: 30, // 🇦🇺 ... (id:30)
-    text: "🇦🇺 ... (30-й блок)" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 30, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     reStart,
-    image: "30.jpeg", // Ссылка на 30-ю картинку
+    image: "images/30.jpeg",
   },
   {
     id: 31, // Остаться в хвосте электрички
-    text: "Так как поезд двигался, то пожар быстро распространялся, поэтому задний вагон быстро сгорел вместе с тобой и остальными пассажирами. Ты проиграл!" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    text: "Так как поезд двигался, то пожар быстро распространялся, поэтому задний вагон быстро сгорел вместе с тобой и остальными пассажирами. Ты проиграл!",
     reStart,
-    image: "31.jpeg",
+    image: "images/31.jpeg",
   },
   {
-    id: 32, // 🇦🇺 ... (id:32)
-    text: "🇦🇺 ... (32-й блок)",
+    id: 32, // 🇦🇺 Run to the front of the commuter train
+    text: "The option to transfer to the front of the suburban train by passing through all the suburban train carriages turned out to be a lifesaver. The back wagons were on fire, but the train was moving fast enough for you to safely reach your destination station while being in the head car and out of harm's way. But what should you do now?! Should you continue riding the train to some distant location or exit at your station?",
     options: [
       {
-        text: "... (Текст кнопки №49)",
+        text: "Hop on the commuter train",
         nextText: 34,
       },
       {
-        text: "... (Текст кнопки №50)",
+        text: "Exit at your station",
         nextText: 36,
       },
     ],
-    image: "32.jpeg", // Ссылка на 32-ю картинку
+    image: "images/32.jpeg",
   },
   {
-    id: 33, // 🇷🇺 ... (id:33)
-    text: "🇷🇺 ... (33-й блок)",
+    id: 33, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
-        text: "... (Текст кнопки №51)",
+        text: "...",
         nextText: 35,
       },
       {
@@ -520,50 +436,38 @@ const textNodes = [
         nextText: 37,
       },
     ],
-    image: "33.jpeg", // Ссылка на 33-ю картинку
+    image: "images/33.jpeg",
   },
   {
-    id: 34, // 🇦🇺 ... (id:34)
-    text: "🇦🇺 ... (34-й блок)" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 34, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     reStart,
-    image: "34.jpeg", // Ссылка на 34-ю картинку
+    image: "images/34.jpeg",
   },
   {
-    id: 35, // 🇷🇺 ... (id:35)
-    text: "🇷🇺 ... (35-й блок)" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 35, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     reStart,
-    image: "35.jpeg", // Ссылка на 35-ю картинку
+    image: "images/35.jpeg",
   },
   {
-    id: 36, // 🇦🇺 ... (id:36)
-    text: "🇦🇺 ... (36-й блок)",
+    id: 36, // 🇦🇺 ...
+    text: "When you arrived at your station, you got off the train and walked home past the local supermarket. You knew you needed to stock up on food for a long time, as you would have to stay at home. But at the same time, you knew it was risky, as there could be zombies in the supermarket. What should you choose?!",
     options: [
       {
-        text: "... (Текст кнопки №55)",
+        text: "Go home without food",
         nextText: 38,
       },
       {
-        text: "... (Текст кнопки №56)",
+        text: "Go to the supermarket",
         nextText: 40,
       },
     ],
-    image: "36.jpeg", // Ссылка на 36-ю картинку
+    image: "images/36.jpeg",
   },
   {
-    id: 37, // 🇷🇺 ... (id:37)
-    text: "🇷🇺 ... (37-й блок)",
+    id: 37, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №57)",
@@ -574,50 +478,38 @@ const textNodes = [
         nextText: 41,
       },
     ],
-    image: "37.jpeg", // Ссылка на 37-ю картинку
+    image: "images/37.jpeg",
   },
   {
-    id: 38, // 🇦🇺 ... (id:38)
-    text: "🇦🇺 ... (38-й блок)" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 38, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     reStart,
-    image: "38.jpeg", // Ссылка на 38-ю картинку
+    image: "images/38.jpeg",
   },
   {
-    id: 39, // 🇷🇺 ... (id:39)
-    text: "🇷🇺 ... (39-й блок)" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 39, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     reStart,
-    image: "39.jpeg", // Ссылка на 39-ю картинку
+    image: "images/39.jpeg",
   },
   {
-    id: 40, // 🇦🇺 ... (id:40)
-    text: "🇦🇺 ... (40-й блок)",
+    id: 40, // 🇦🇺 ...
+    text: "To your surprise, there was no one in the store, everyone had run away somewhere. Moreover, it was clear that some of the food from the shelves had already disappeared. There were scattered flakes on the floor and spilled milk. You picked up non-perishable food: canned goods, oatmeal cookies, tea, grains, etc. You wanted to pay for everything, but the cash register was smashed and looted. In the place where the cashier should have been, you saw drops of blood. You headed home. Next to the store, you saw a huge jeep with open doors and the engine running. People were running somewhere in the distance. You realized that the car was abandoned, but it was not yours. You began to feel guilty. What will you choose?",
     options: [
       {
-        text: "... (Текст кнопки №61)",
+        text: "Make your way home by walking",
         nextText: 42,
       },
       {
-        text: "... (Текст кнопки №62)",
+        text: ".Use the car to get home",
         nextText: 44,
       },
     ],
-    image: "40.jpeg", // Ссылка на 40-ю картинку
+    image: "images/40.jpeg",
   },
   {
-    id: 41, // 🇷🇺 ... (id:41)
-    text: "🇷🇺 ... (41-й блок)",
+    id: 41, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №63)",
@@ -628,50 +520,38 @@ const textNodes = [
         nextText: 45,
       },
     ],
-    image: "41.jpeg", // Ссылка на 41-ю картинку
+    image: "images/41.jpeg",
   },
   {
-    id: 42, // 🇦🇺 ... (id:42)
-    text: "🇦🇺 ... (42-й блок)" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 42, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     reStart,
-    image: "42.jpeg", // Ссылка на 42-ю картинку
+    image: "images/42.jpeg",
   },
   {
-    id: 43, // 🇷🇺 ... (id:43)
-    text: "🇷🇺 ... (43-й блок)" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 43, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     reStart,
-    image: "43.jpeg", // Ссылка на 43-ю картинку
+    image: "images/43.jpeg",
   },
   {
-    id: 44, // 🇦🇺 ... (id:44)
-    text: "🇦🇺 ... (44-й блок)",
+    id: 44, // Drive home by car
+    text: "You made the right choice by taking the car, as walking home is no longer safe. Inside the car, you can be protected from bites! It's especially nice to be in the car with a large bag of food) When you arrived home, you heard screams inside. What will you do?",
     options: [
       {
-        text: "... (Текст кнопки №67)",
+        text: "Run back to the train station",
         nextText: 46,
       },
       {
-        text: "... (Текст кнопки №68)",
+        text: "Run into the house to save your family",
         nextText: 48,
       },
     ],
-    image: "44.jpeg", // Ссылка на 44-ю картинку
+    image: "images/44.jpeg",
   },
   {
-    id: 45, // 🇷🇺 ... (id:45)
-    text: "🇷🇺 ... (45-й блок)",
+    id: 45, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №69)",
@@ -682,35 +562,23 @@ const textNodes = [
         nextText: 49,
       },
     ],
-    image: "45.jpeg", // Ссылка на 45-ю картинку
+    image: "images/45.jpeg",
   },
   {
-    id: 46, // 🇦🇺 ... (id:46)
-    text: "🇦🇺 ... (46-й блок)" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 46, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     reStart,
-    image: "46.jpeg", // Ссылка на 46-ю картинку
+    image: "images/46.jpeg",
   },
   {
-    id: 47, // 🇷🇺 ... (id:47)
-    text: "🇷🇺 ... (47-й блок)" /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 47, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     reStart,
-    image: "47.jpeg", // Ссылка на 47-ю картинку
+    image: "images/47.jpeg",
   },
   {
-    id: 48, // 🇦🇺 ... (id:48)
-    text: "🇦🇺 ... (48-й блок)",
+    id: 48, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №73)",
@@ -721,11 +589,11 @@ const textNodes = [
         nextText: 52,
       },
     ],
-    image: "48.jpeg", // Ссылка на 48-ю картинку
+    image: "images/48.jpeg",
   },
   {
-    id: 49, // 🇷🇺 ... (id:49)
-    text: "🇷🇺 ... (49-й блок)",
+    id: 49, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №75)",
@@ -736,35 +604,23 @@ const textNodes = [
         nextText: 53,
       },
     ],
-    image: "49.jpeg", // Ссылка на 49-ю картинку
+    image: "images/49.jpeg",
   },
   {
-    id: 50, // 🇦🇺 ... (id:50)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 50, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
-    image: "50.jpeg", // Ссылка на 50-ю картинку
+    image: "images/50.jpeg",
   },
   {
-    id: 51, // 🇷🇺 ... (id:51)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 51, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
-    image: "51.jpeg", // Ссылка на 51-ю картинку
+    image: "images/51.jpeg",
   },
   {
-    id: 52, // 🇦🇺 ... (id:52)
-    text: "🇦🇺 ... (52-й блок)",
+    id: 52, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №79)",
@@ -775,11 +631,11 @@ const textNodes = [
         nextText: 56,
       },
     ],
-    image: "52.jpeg", // Ссылка на 52-ю картинку
+    image: "images/52.jpeg",
   },
   {
-    id: 53, // 🇷🇺 ... (id:53)
-    text: "🇷🇺 ... (53-й блок)",
+    id: 53, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №81)",
@@ -790,35 +646,23 @@ const textNodes = [
         nextText: 57,
       },
     ],
-    image: "53.jpeg", // Ссылка на 53-ю картинку
+    image: "images/53.jpeg",
   },
   {
-    id: 54, // 🇦🇺 ... (id:54)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 54, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
-    image: "54.jpeg", // Ссылка на 54-ю картинку
+    image: "images/54.jpeg",
   },
   {
-    id: 55, // 🇷🇺 ... (id:55)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 55, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
-    image: "55.jpeg", // Ссылка на 55-ю картинку
+    image: "images/55.jpeg",
   },
   {
-    id: 56, // 🇦🇺 ... (id:56)
-    text: "🇦🇺 ... (56-й блок)",
+    id: 56, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №85)",
@@ -829,11 +673,11 @@ const textNodes = [
         nextText: 60,
       },
     ],
-    image: "56.jpeg", // Ссылка на 56-ю картинку
+    image: "images/56.jpeg",
   },
   {
-    id: 57, // 🇷🇺 ... (id:57)
-    text: "🇷🇺 ... (57-й блок)",
+    id: 57, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №87)",
@@ -844,35 +688,23 @@ const textNodes = [
         nextText: 61,
       },
     ],
-    image: "57.jpeg", // Ссылка на 57-ю картинку
+    image: "images/57.jpeg",
   },
   {
-    id: 58, // 🇦🇺 ... (id:58)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 58, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
-    image: "58.jpeg", // Ссылка на 58-ю картинку
+    image: "images/58.jpeg",
   },
   {
-    id: 59, // 🇷🇺 ... (id:59)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 59, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
-    image: "59.jpeg", // Ссылка на 59-ю картинку
+    image: "images/59.jpeg",
   },
   {
-    id: 60, // 🇦🇺 ... (id:60)
-    text: "🇦🇺 ... (60-й блок)",
+    id: 60, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №91)",
@@ -883,11 +715,11 @@ const textNodes = [
         nextText: 20,
       },
     ],
-    image: "60.jpeg", // Ссылка на 60-ю картинку
+    image: "images/60.jpeg",
   },
   {
-    id: 61, // 🇷🇺 ... (id:61)
-    text: "🇷🇺 ... (61-й блок)",
+    id: 61, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №93)",
@@ -898,35 +730,23 @@ const textNodes = [
         nextText: 65,
       },
     ],
-    image: "61.jpeg", // Ссылка на 61-ю картинку
+    image: "images/61.jpeg",
   },
   {
-    id: 62, // 🇦🇺 ... (id:62)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 62, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
-    image: "62.jpeg", // Ссылка на 62-ю картинку
+    image: "images/62.jpeg",
   },
   {
-    id: 63, // 🇷🇺 ... (id:63)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 63, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
-    image: "63.jpeg", // Ссылка на 63-ю картинку
+    image: "images/63.jpeg",
   },
   {
-    id: 64, // 🇦🇺 ... (id:64)
-    text: "🇦🇺 ... (64-й блок)",
+    id: 64, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №97)",
@@ -937,11 +757,11 @@ const textNodes = [
         nextText: 68,
       },
     ],
-    image: "64.jpeg", // Ссылка на 64-ю картинку
+    image: "images/64.jpeg",
   },
   {
-    id: 65, // 🇷🇺 ... (id:65)
-    text: "🇷🇺 ... (65-й блок)",
+    id: 65, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №99)",
@@ -952,35 +772,23 @@ const textNodes = [
         nextText: 69,
       },
     ],
-    image: "65.jpeg", // Ссылка на 65-ю картинку
+    image: "images/65.jpeg",
   },
   {
-    id: 66, // 🇦🇺 ... (id:66)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 66, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
-    image: "66.jpeg", // Ссылка на 66-ю картинку
+    image: "images/66.jpeg",
   },
   {
-    id: 67, // 🇷🇺 ... (id:67)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 67, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
-    image: "67.jpeg", // Ссылка на 19-ю картинку
+    image: "images/67.jpeg",
   },
   {
-    id: 68, // 🇦🇺 ... (id:68)
-    text: "🇦🇺 ... (68-й блок)",
+    id: 68, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №103)",
@@ -991,11 +799,11 @@ const textNodes = [
         nextText: 72,
       },
     ],
-    image: "68.jpeg", // Ссылка на 68-ю картинку
+    image: "images/68.jpeg",
   },
   {
-    id: 69, // 🇷🇺 ... (id:69)
-    text: "🇷🇺 ... (69-й блок)",
+    id: 69, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №105)",
@@ -1006,35 +814,23 @@ const textNodes = [
         nextText: 73,
       },
     ],
-    image: "69.jpeg", // Ссылка на 69-ю картинку
+    image: "images/69.jpeg",
   },
   {
-    id: 70, // 🇦🇺 ... (id:70)
-    text: "🇦🇺 ...  " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 70, // 🇦🇺 ...
+    text: "🇦🇺 ...  ",
     reStart,
-    image: "70.jpeg", // Ссылка на 70-ю картинку
+    image: "images/70.jpeg",
   },
   {
-    id: 71, // 🇷🇺 ... (id:71)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 71, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
-    image: "71.jpeg", // Ссылка на 71-ю картинку
+    image: "images/71.jpeg",
   },
   {
-    id: 72, // 🇦🇺 ... (id:72)
-    text: "🇦🇺 ... (72-й блок)",
+    id: 72, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №109)",
@@ -1045,11 +841,11 @@ const textNodes = [
         nextText: 76,
       },
     ],
-    image: "72.jpeg", // Ссылка на 72-ю картинку
+    image: "images/72.jpeg",
   },
   {
-    id: 73, // 🇷🇺 ... (id:73)
-    text: "🇷🇺 ... (73-й блок)",
+    id: 73, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №111)",
@@ -1060,35 +856,23 @@ const textNodes = [
         nextText: 76,
       },
     ],
-    image: "73.jpeg", // Ссылка на 73-ю картинку
+    image: "images/73.jpeg",
   },
   {
-    id: 74, // 🇦🇺 ... (id:74)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 74, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
-    image: "74.jpeg", // Ссылка на 74-ю картинку
+    image: "images/74.jpeg",
   },
   {
-    id: 75, // 🇷🇺 ... (id:75)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 75, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
-    image: "75.jpeg", // Ссылка на 19-ю картинку
+    image: "images/75.jpeg",
   },
   {
-    id: 76, // 🇦🇺 ... (id:76)
-    text: "🇦🇺 ... (76-й блок)",
+    id: 76, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №115)",
@@ -1099,11 +883,11 @@ const textNodes = [
         nextText: 80,
       },
     ],
-    image: "76.jpeg", // Ссылка на 76-ю картинку
+    image: "images/76.jpeg",
   },
   {
-    id: 77, // 🇷🇺 ... (id:77)
-    text: "🇷🇺 ... (77-й блок)",
+    id: 77, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №117)",
@@ -1114,35 +898,23 @@ const textNodes = [
         nextText: 81,
       },
     ],
-    image: "77.jpeg", // Ссылка на 77-ю картинку
+    image: "images/77.jpeg",
   },
   {
-    id: 78, // 🇦🇺 ... (id:78)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 78, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
-    image: "78.jpeg", // Ссылка на 78-ю картинку
+    image: "images/78.jpeg",
   },
   {
-    id: 79, // 🇷🇺 ... (id:79)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 79, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
-    image: "79.jpeg", // Ссылка на 79-ю картинку
+    image: "images/79.jpeg",
   },
   {
-    id: 80, // 🇦🇺 ... (id:80)
-    text: "🇦🇺 ... (80-й блок)",
+    id: 80, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №121)",
@@ -1153,11 +925,11 @@ const textNodes = [
         nextText: 84,
       },
     ],
-    image: "80.jpeg", // Ссылка на 80-ю картинку
+    image: "images/80.jpeg",
   },
   {
-    id: 81, // 🇷🇺 ... (id:81)
-    text: "🇷🇺 ... (81-й блок)",
+    id: 81, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №123)",
@@ -1168,35 +940,23 @@ const textNodes = [
         nextText: 85,
       },
     ],
-    image: "81.jpeg", // Ссылка на 81-ю картинку
+    image: "images/81.jpeg",
   },
   {
-    id: 82, // 🇦🇺 ... (id:82)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 82, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
-    image: "82.jpeg", // Ссылка на 82-ю картинку
+    image: "images/82.jpeg",
   },
   {
-    id: 83, // 🇷🇺 ... (id:83)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 83, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
-    image: "83.jpeg", // Ссылка на 83-ю картинку
+    image: "images/83.jpeg",
   },
   {
-    id: 84, // 🇦🇺 ... (id:84)
-    text: "🇦🇺 ... (84-й блок)",
+    id: 84, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №127)",
@@ -1207,11 +967,11 @@ const textNodes = [
         nextText: 66,
       },
     ],
-    image: "84.jpeg", // Ссылка на 84-ю картинку
+    image: "images/84.jpeg",
   },
   {
-    id: 85, // 🇷🇺 ... (id:85)
-    text: "🇷🇺 ... (85-й блок)",
+    id: 85, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №129)",
@@ -1222,35 +982,23 @@ const textNodes = [
         nextText: 89,
       },
     ],
-    image: "85.jpeg", // Ссылка на 85-ю картинку
+    image: "images/85.jpeg",
   },
   {
-    id: 86, // 🇦🇺 ... (id:86)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 86, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
-    image: "86.jpeg", // Ссылка на 86-ю картинку
+    image: "images/86.jpeg",
   },
   {
-    id: 87, // 🇷🇺 ... (id:87)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 87, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
-    image: "87.jpeg", // Ссылка на 87-ю картинку
+    image: "images/87.jpeg",
   },
   {
-    id: 88, // 🇦🇺 ... (id:88)
-    text: "🇦🇺 ... (88-й блок)",
+    id: 88, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №133)",
@@ -1261,11 +1009,11 @@ const textNodes = [
         nextText: 92,
       },
     ],
-    image: "88.jpeg",
+    image: "images/88.jpeg",
   },
   {
-    id: 89, // 🇷🇺 ... (id:89)
-    text: "🇷🇺 ... (89-й блок)",
+    id: 89, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №135)",
@@ -1276,35 +1024,23 @@ const textNodes = [
         nextText: 93,
       },
     ],
-    image: "89.jpeg",
+    image: "images/89.jpeg",
   },
   {
-    id: 90, // 🇦🇺 ... (id:90)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 90, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
     image: "images/90.jpeg",
   },
   {
-    id: 91, // 🇷🇺 ... (id:91)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 91, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
     image: "images/91.jpeg",
   },
   {
-    id: 92, // 🇦🇺 ... (id:92)
-    text: "🇦🇺 ... (92-й блок)",
+    id: 92, // 🇦🇺 ...
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №139)",
@@ -1318,8 +1054,8 @@ const textNodes = [
     image: "images/92.jpeg",
   },
   {
-    id: 93, // 🇷🇺 ... (id:93)
-    text: "🇷🇺 ... (93-й блок)",
+    id: 93, // 🇷🇺 ...
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №141)",
@@ -1333,32 +1069,20 @@ const textNodes = [
     image: "images/93.jpeg",
   },
   {
-    id: 94, // 🇦🇺 ... (id:94)
-    text: "🇦🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 94, // 🇦🇺 ...
+    text: "🇦🇺 ... ",
     reStart,
     image: "images/94.jpeg",
   },
   {
-    id: 95, // 🇷🇺 ... (id:95)
-    text: "🇷🇺 ... " /*
-    options: [
-      {
-        text: "Restart",
-        nextText: -1,
-      },
-    ], */,
+    id: 95, // 🇷🇺 ...
+    text: "🇷🇺 ... ",
     reStart,
     image: "images/95.jpeg",
   },
   {
     id: 96, // 🇦🇺 ...
-    text: "🇦🇺 ... (96-й блок)",
+    text: "🇦🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №145)",
@@ -1373,7 +1097,7 @@ const textNodes = [
   },
   {
     id: 97, // 🇷🇺 ...
-    text: "🇷🇺 ... (97-й блок)",
+    text: "🇷🇺 ...",
     options: [
       {
         text: "... (Текст кнопки №147)",
