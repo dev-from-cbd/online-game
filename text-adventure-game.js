@@ -577,15 +577,15 @@ const textNodes = [
     image: "images/47.jpeg",
   },
   {
-    id: 48, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 48, // Run inside to rescue your loved ones
+    text: "When you drove up to your home, you heard screams coming from the second floor. You ran inside and saved everyone! You had to kill some zombies :( What to do next?! Barricade yourself in the house or go outside to look for something?!",
     options: [
       {
-        text: "... (Текст кнопки №73)",
+        text: "Go look for adventure",
         nextText: 50,
       },
       {
-        text: "... (Текст кнопки №74)",
+        text: "Barricade yourself in the house",
         nextText: 52,
       },
     ],
