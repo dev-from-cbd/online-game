@@ -619,15 +619,15 @@ const textNodes = [
     image: "images/51.jpeg",
   },
   {
-    id: 52, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 52, // Fortify the house by barricading the entrances
+    text: "Hide in the house was a good idea! Within a day, all the nearby houses were deserted, but screams could be heard on the streets. You had food, water, electricity, and other supplies, but you knew that electricity and water supply would soon be cut off. Not only zombies but also marauder gangs appeared on the streets. You remembered that your neighbor had a good underground bunker that he paranoidly dug in case of a nuclear attack by Putin. So the bunker would come in handy if you need to hide from zombies and marauders. There is a system for collecting rainwater and solar panels with a generator. You can live inside for a long time without any problems. Or you could go with your whole family to the nearest military unit since it was announced on the radio that a refugee camp was being set up there. What will you choose?",
     options: [
       {
-        text: "... (Текст кнопки №79)",
+        text: "Make your way to the military unit",
         nextText: 54,
       },
       {
-        text: "... (Текст кнопки №80)",
+        text: ".Take shelter in the bunker",
         nextText: 56,
       },
     ],
