@@ -313,8 +313,8 @@ const textNodes = [
     image: "images/21.jpeg",
   },
   {
-    id: 22, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 22, // Make your way through the city blocks
+    text: "You've been eaten by zombies!!",
     reStart,
     image: "images/22.jpeg",
   },
