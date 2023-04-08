@@ -355,8 +355,8 @@ const textNodes = [
     image: "images/25.jpeg",
   },
   {
-    id: 26, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 26, // Wait for something
+    text: "You have died.",
     reStart,
     image: "images/26.jpeg",
   },
