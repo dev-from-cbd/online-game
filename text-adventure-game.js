@@ -397,8 +397,8 @@ const textNodes = [
     image: "images/29.jpeg",
   },
   {
-    id: 30, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 30, // Stay in the tail of the train
+    text: "As the train was moving, the fire quickly spread, so the rear carriage quickly burned down with you and the other passengers. You lost!",
     reStart,
     image: "images/30.jpeg",
   },
