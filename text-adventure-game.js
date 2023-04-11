@@ -439,8 +439,8 @@ const textNodes = [
     image: "images/33.jpeg",
   },
   {
-    id: 34, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 34, // Hop on the commuter train
+    text: "A commuter train crashed into another commuter train!",
     reStart,
     image: "images/34.jpeg",
   },
