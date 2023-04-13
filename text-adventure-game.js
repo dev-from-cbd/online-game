@@ -451,7 +451,7 @@ const textNodes = [
     image: "images/35.jpeg",
   },
   {
-    id: 36, // 🇦🇺 ...
+    id: 36, // To get off at your station
     text: "When you arrived at your station, you got off the train and walked home past the local supermarket. You knew you needed to stock up on food for a long time, as you would have to stay at home. But at the same time, you knew it was risky, as there could be zombies in the supermarket. What should you choose?!",
     options: [
       {
