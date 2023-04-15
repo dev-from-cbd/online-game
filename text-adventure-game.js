@@ -481,8 +481,8 @@ const textNodes = [
     image: "images/37.jpeg",
   },
   {
-    id: 38, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 38, // Go home without food
+    text: "You came back home and passed away from starvation.",
     reStart,
     image: "images/38.jpeg",
   },
