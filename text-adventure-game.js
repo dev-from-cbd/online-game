@@ -493,7 +493,7 @@ const textNodes = [
     image: "images/39.jpeg",
   },
   {
-    id: 40, // 🇦🇺 ...
+    id: 40, // Go to the supermarket
     text: "To your surprise, there was no one in the store, everyone had run away somewhere. Moreover, it was clear that some of the food from the shelves had already disappeared. There were scattered flakes on the floor and spilled milk. You picked up non-perishable food: canned goods, oatmeal cookies, tea, grains, etc. You wanted to pay for everything, but the cash register was smashed and looted. In the place where the cashier should have been, you saw drops of blood. You headed home. Next to the store, you saw a huge jeep with open doors and the engine running. People were running somewhere in the distance. You realized that the car was abandoned, but it was not yours. You began to feel guilty. What will you choose?",
     options: [
       {
