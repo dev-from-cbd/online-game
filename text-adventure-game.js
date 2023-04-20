@@ -649,8 +649,8 @@ const textNodes = [
     image: "images/53.jpeg",
   },
   {
-    id: 54, // 🇦🇺 ...
-    text: "🇦🇺 ... ",
+    id: 54, // Make your way to the military base
+    text: "On the radio, they announced that the authorities had released all the inmates from the prisons and all the psychos from the mental hospitals, as it was the last humane step of humanity, otherwise they would have been eaten there. Some of the released quickly formed gangs. The most fierce were the groups that mixed together the prison scum, the insane psychos from the mental institutions, and the alcoholic freaks. These three social groups found a common language between themselves, so it was a golden time for them. These crooks and thugs killed you and your family!!",
     reStart,
     image: "images/54.jpeg",
   },
