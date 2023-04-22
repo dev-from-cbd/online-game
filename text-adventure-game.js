@@ -661,15 +661,15 @@ const textNodes = [
     image: "images/55.jpeg",
   },
   {
-    id: 56, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 56, // Take shelter in the bunker
+    text: "You and your family had moved from your home to the neighbor's underground bunker. Unfortunately, the neighbor turned into a zombie. You saw his face in the window on the second floor of his house. You went into his bunker, and he looked at you sadly and growled. It was ironic to prepare so well for the end of the world and then die on the first day of the Apocalypse. You all felt sorry for the neighbor because, although he was grumpy, he was a good person at heart. He had some quirks, but they never bothered anyone. The neighbor was constantly digging the bunker in case of a nuclear attack by Putin. Now the bunker came in handy for people, but not for its creator, unfortunately. On the radio, they announced that the authorities had released all the prisoners from the prisons and all the psychos from the insane asylums, as it was the last humane act of humanity, otherwise they would have been eaten there. Some of the released quickly formed gangs. The most fanatical were the gangs in which the prison scum, crazy psychos from the asylums, and alcoholic freaks mixed. These three social groups found a common language with each other, so it was a golden time for them. Therefore, your family urgently needed to hide from the crowds of marauders and zombies. The bunker had a system for collecting rainwater and solar panels with a generator. And also, there was simply stocked drinking water in barrels and electricity in batteries. You could live here for a very long time without any problems. You could go to the nearest military unit where a refugee camp was made and later, after a few days. When you prepared dinner and ate with your family, you heard someone knock on the door. In general, the doors were quite well disguised, so it could only be someone who knew about the bunker, that is, someone from the neighbors or friends of the bunker's creator. You had an eye-hole and the ability to talk to the guest through a microphone. It turned out to be the internet friend of your neighbor, who flew in on his small plane from New Zealand, but after landing, he was bitten, so now he is infected and will soon turn into a zombie. What will you choose? Let the infected person in to cure him, or leave him to die on the street?!",
     options: [
       {
-        text: "... (Текст кнопки №85)",
+        text: "Let the infected person in",
         nextText: 58,
       },
       {
-        text: "... (Текст кнопки №86)",
+        text: "Leave the infected person outside the bunker",
         nextText: 60,
       },
     ],
