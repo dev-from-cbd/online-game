@@ -691,50 +691,50 @@ const textNodes = [
     image: "images/57.jpeg",
   },
   {
-    id: 58, // 🇦🇺 ...
-    text: "🇦🇺 ... ",
+    id: 58, // Let the infected person in
+    text: "You let in the infected person, he turned into a zombie and ate all of you!",
     reStart,
     image: "images/58.jpeg",
   },
   {
-    id: 59, // 🇷🇺 ...
-    text: "🇷🇺 ... ",
+    id: 59, // Впустить зараженного
+    text: "Вы впустили зараженного, он обратился в зомби и съел вас всех!",
     reStart,
     image: "images/59.jpeg",
   },
   {
-    id: 60, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 60, // Leave the infected person near the bunker
+    text: "You made the right choice by not letting the infected person in. You saved yourself, while he couldn't survive since there is no cure after being bitten. Of course, it was very sad for all of you, but there was nothing you could do. You calculated the supplies you had. If there was only one person, the water and canned food would have lasted a long time, but since there were several of you, everything would run out quite quickly. Something had to be done. The situation was further complicated by the radio report about dangerous hungry animals roaming the streets. The thing is that volunteers all over the world decided to release the animals from the cages in zoos and circuses, otherwise they would have died of hunger there. Some of the volunteers even died freeing lions and tigers. In general, besides zombies and marauders, wild animals now roamed the streets too. It's understandable that this wasn't happening everywhere since there are not zoos and circuses in every city, and there haven't been any animal circuses in your country for a long time, but there were more zoos than anywhere else. Since supplies were very low, something had to be done. You had a radio through which you could all hear the invitation from the military to their base, but you couldn't call them or contact them in any way. The internet stopped working all over the world. Cell phone service no longer worked. You didn't have any old-fashioned landline phones that would work on simple telephone lines. But you knew there was a hunting store nearby that had everything for hunting and fishing. You could find a radio there. It's clear that the place no longer functioned as a store, but radios could still be there somewhere on the shelves. In general, you decided to organize the rescue in two steps: get to the radios, and then go to the military base if they are waiting for you there and if they explain how to get to them. You prepared the car for a long journey, packed provisions, a tent, and so on. The hunting store was within easy reach, so the first step of your journey would be short. You set off there at dawn. When you arrived at the store, you saw that it was half looted through the broken window. This is not surprising. When you approached the store to go inside, you heard noise inside. What will you do? Will you take the risk and go inside for the radios, or will you return to the bunker with your family?",
     options: [
       {
-        text: "... (Текст кнопки №91)",
-        nextText: 18,
+        text: "Return to the bunker",
+        nextText: 62,
       },
       {
-        text: "... (Текст кнопки №92)",
-        nextText: 20,
+        text: "Go inside the store",
+        nextText: 64,
       },
     ],
     image: "images/60.jpeg",
   },
   {
-    id: 61, // 🇷🇺 ...
-    text: "🇷🇺 ...",
+    id: 61, // Оставить зараженного возле бункера
+    text: "Вы сделали правильный выбор, когда не впустили зараженного к себе. Вы спаслись, а он не смог выжить, так как после укуса уже нет вариантов, от этого нет лекарства. Конечно, вам всем было очень грустно от этого, но ничего не поделать. Вы подсчитали запасы, которые у вас имелись. Воды и еды в виде консервов хватило бы надолго, если бы тут был всего один человек. Но так как вас несколько, то все закончится довольно быстро. Нужно было что-то решать. Ситуация усложнялась тем, что по радио передали об опасных голодных животных, слоняющихся по улицам. Дело в том, что волонтеры по всему миру решили выпустить животных из клеток в зоопарках и цирках, иначе там их ждала голодная смерть. Часть волонтеров даже погибла, освобождая львов и тигров. В общем, на улицах помимо зомби и мародеров, теперь орудовали и дикие животные. Понятно, что это было не везде, так как зоопарки и цирки есть не в каждом городе, а цирков с животными в твоей стране вообще давно уже нет, но зато зоопарков было больше, чем где бы то ни было. Так как запасов оставалось очень мало, то нужно что-то решать. У тебя было радио, через которое вы все могли слышать приглашение военных из их части, но вы не могли позвонить им или как-то связаться. Интернет перестал работать по всей планете. Сотовая связь больше не работала. Старых проводных телефонов, которые бы работали по простым телефонным линиям у вас не было. Но ты знал, что недалеко был охотничий магазин, где было все для охоты и рыбалки. Там можно найти рацию. Понятно, что то место уже не функционировало, как магазин, однако ж, рации-то там могли остаться где-то на полках. В общем, ты решил организовать спасение в 2 шага: добраться до раций, а уж затем поехать в военную часть, если вас там ждут и если они объяснят, как именно до них доехать. Ты подготовил автомобиль к дальнему путешествию, сложил туда провизию, палатку и прочее. До охотнечьего магазина было рукой подать, поэтому первый шаг вашего путешествия будет коротким. Вы выехали туда на рассвете. Когда вы подъехали к магазину, то через разбитую витрину увидели, что он был наполовину разграблен. Это неудивительно. Когда ты подошел к магазину, чтобы зайти внутрь, то ты услышал шум внутри. Что ты будешь делать? Рискнешь и зайдешь внутрь за рациями, либо же вернешься с семьей обратно в бункер?",
     options: [
       {
-        text: "... (Текст кнопки №93)",
+        text: "Вернуться в бункер",
         nextText: 63,
       },
       {
-        text: "... (Текст кнопки №94)",
+        text: "Зайти внутрь магазина",
         nextText: 65,
       },
     ],
     image: "images/61.jpeg",
   },
   {
-    id: 62, // 🇦🇺 ...
-    text: "🇦🇺 ... ",
+    id: 62, // Return to the bunker
+    text: "You returned to the bunker and died there of hunger.",
     reStart,
     image: "images/62.jpeg",
   },
