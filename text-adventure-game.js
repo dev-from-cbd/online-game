@@ -739,63 +739,63 @@ const textNodes = [
     image: "images/62.jpeg",
   },
   {
-    id: 63, // 🇷🇺 ...
-    text: "🇷🇺 ... ",
+    id: 63, // Вернуться в бункер
+    text: "Вы вернулись в бункер и умерли там от голода.",
     reStart,
     image: "images/63.jpeg",
   },
   {
-    id: 64, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 64, // Go inside the store
+    text: "You did the right thing by daring to go inside the store, because there was nothing terrible there. There was a plump puppy that was running around looking for food. It was he who made the noise when he dropped cardboard promotional materials, running next to the trading shelves. You found packs of walkie-talkies, as well as a few other useful things like dynamos and portable solar panels that would be a nice addition to what you already had. You also grabbed a fat, furry puppy under your arm, which was already licking your cheek and ear. Your daughter in the back seat of the car was very happy about the replenishment, as puppies and kittens were not allowed to her even before the apocalypse. But now everything was possible! And when it came to a dog that could bark at strangers if trained, it worked out great! In general, everyone was happy, so we could move on. Fortunately, we managed to contact the military base through the radio, get permission from them to arrive, and also find out the coordinates with advice on the route. When you started to drive away from the store, you realized that zombies began to run towards you from all sides. What will you do? Will you go ahead, knocking down zombies, or will you wait until they peacefully disperse to their homes?",
     options: [
       {
-        text: "... (Текст кнопки №97)",
+        text: "Die",
         nextText: 66,
       },
       {
-        text: "... (Текст кнопки №98)",
+        text: "Go ahead",
         nextText: 68,
       },
     ],
     image: "images/64.jpeg",
   },
   {
-    id: 65, // 🇷🇺 ...
-    text: "🇷🇺 ...",
+    id: 65, // Зайти внутрь магазина
+    text: "Ты правильно сделал, что отважился зайти внутрь магазина, так как там ничего страшного не было. Там был толстенький щенок, который бегал в поисках еды. Именно он и создавал шум, когда ронял картонные рекламные материалы, бегая рядом с торговыми полками. Ты нашел упаковки с рациями, а также еще несколько полезных вещей, типа динамо-машины и переносные солнечных панелей, которые были бы хорошим дополнением к тому, что у вас уже было. Также ты прихватил под мышку толстого мохнатого щенка, который уже лизал твою щеку и ухо. Твоя дочка на заднем сиденье автомобиля была очень рада пополнению, так как щенков и котят ей не позволяли даже до апокалипсиса. Но теперь можно было все! А когда это касалось собаки, которая могла бы гавкать на незнакомцев, если ее надрессировать, то вообще получалось превосходно! В общем, все были счастливы, поэтому можно было двигаться дальше. К счастью, через рацию удалось связаться с военной базой, получить от них разрешение на прибытие, а также узнать координаты с советами по маршруту. Когда вы начали отъезжать от магазина, то поняли, что со всех сторон к вам стали сбегаться зомби. Что ты будешь делать? Поедешь напролом, сбивая зомби, либо же подождешь, когда они мирно разойдутся по домам?",
     options: [
       {
-        text: "... (Текст кнопки №99)",
+        text: "Умереть",
         nextText: 67,
       },
       {
-        text: "... (Текст кнопки №100)",
+        text: "Ехать напролом",
         nextText: 69,
       },
     ],
     image: "images/65.jpeg",
   },
   {
-    id: 66, // 🇦🇺 ...
-    text: "🇦🇺 ... ",
+    id: 66, // Die
+    text: "You are dead.",
     reStart,
     image: "images/66.jpeg",
   },
   {
-    id: 67, // 🇷🇺 ...
-    text: "🇷🇺 ... ",
+    id: 67, // Умереть
+    text: "Вы умерли.",
     reStart,
     image: "images/67.jpeg",
   },
   {
-    id: 68, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 68, // Go ahead
+    text: "When you fought your way through the zombie horde, you ran off into the distance. The road was relatively long, but you periodically contacted the military base via radio and received updates on turns and other things. Some roads became impassable due to a huge accumulation of cars. When it all started a few days ago, people tried to escape by driving out of the cities. However, one zombie was enough to start a chain reaction of infection, as it bit one person, who turned into a zombie and began biting others. In general, many people had no chance. Such places now needed to be bypassed, as they were now impassable, but as you understand, not only because of the accumulation of abandoned cars. When there were only 10 kilometers left to the military base, you tried one last time to contact the military, who had already become your friend. But what horror you experienced when during the final session, you received a response from the military that zombies had entered the camp and that this radioman was already infected. He was bitten during one of the fights with the zombies. There was very little time left before he turned into a zombie, so the military said goodbye and wished you good luck. In the background, screams and gunfire could be heard. It was clear that the last battle was going on, but whoever won, you could no longer take any risks. What will you choose?! To stay right here, set up a tent and spend the night, or return to the bunker?",
     options: [
       {
-        text: "... (Текст кнопки №103)",
-        nextText: 70,
+        text: "Return to the bunker",
+        nextText: 62,
       },
       {
-        text: "... (Текст кнопки №104)",
+        text: "Spend the night in a tent",
         nextText: 72,
       },
     ],
