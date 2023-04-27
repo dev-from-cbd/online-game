@@ -817,56 +817,56 @@ const textNodes = [
     image: "images/69.jpeg",
   },
   {
-    id: 70, // 🇦🇺 ...
-    text: "🇦🇺 ...  ",
+    id: 70, // Shout at the snake
+    text: "You shouted at the snake, but since all snakes are deaf, the snake bit you. And yet, zombies came running to the scream and ate everyone!",
     reStart,
     image: "images/70.jpeg",
   },
   {
-    id: 71, // 🇷🇺 ...
-    text: "🇷🇺 ... ",
+    id: 71, // Крикнуть на змею
+    text: "Ты крикнул на змею, но так как все змеи глухие, то змея укусила тебя. А еще, на крик сбежались зомби и всех съели!",
     reStart,
     image: "images/71.jpeg",
   },
   {
-    id: 72, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 72, // Spend the night in a tent
+    text: "You and your family decided to stay a few kilometers away from the military base to set up a tent and spend the night. Clearly, all of this is VERY risky, but on the other hand, there were some benefits. In recent years, you have been studying and working so much that you haven't had much time for your family. And now, you could all spend some time together in nature, even if it's just for a short while. You have food and water, as well as everything you need for comfort. It's like a family camping trip. How often do you get some fresh air?! When was the last time you went out to nature with your whole family?! You set up the tent, made a fire, and told everyone that you will keep watch while they sleep. You managed to relax and think about your plan of action. Everyone became calm. Birds were chirping in the trees, and somewhere in the distance, wombats were snorting. The sounds of nature were lulling. When your family fell asleep in the tent on air mattresses under warm blankets, you walked around and made an improvised fence, stretching ropes with bells so that no one could approach your campsite unnoticed. Everything was fine until you saw a snake. What will you do? Will you start shouting to scare the snake away, or will you throw a stone at it?",
     options: [
       {
-        text: "... (Текст кнопки №109)",
-        nextText: 74,
+        text: "Shout at the snake",
+        nextText: 70,
       },
       {
-        text: "... (Текст кнопки №110)",
+        text: "Throw a stone at the snake",
         nextText: 76,
       },
     ],
     image: "images/72.jpeg",
   },
   {
-    id: 73, // 🇷🇺 ...
-    text: "🇷🇺 ...",
+    id: 73, // Переночевать в палатке
+    text: "Ты с семьей решил остаться в нескольких километрах от военной базы, чтобы поставить палатку и переночевать. Понятно, что все это ОЧЕНЬ рисковано, но с другой стороны, были и плюсы. В последние годы ты так много учился и работал, что у тебя не оставалось времени на семью. А теперь вы могли бы побыть на природе хотя бы недолго все вместе. У вас есть еда и вода, а также все необходимое для уюта. Можно сказать, это что-то типа похода всей семьи. Как часто вы бываете на свежем воздухе?! Когда вы всей семьей вместе выбирались на природу?! Ты поставил палатку, развел костер, рассказал всем, что ты будешь дежурить, пока все будут спать. Вам удалось расслабиться и подумать о плане действий. Всем стало спокойно. На деревьях чирикали птички, где-то вдалеке хрюкали вомбаты. Звуки природы убаюкивали. Когда семья уснула в палатке на надувных матрасах под теплыми пледами, ты ходил вокруг и делал импровизированный забор, растягивая веревки с колокольчиками, чтобы к вашему лагерю никто не смог подкрасться незаметно. Все было отлично до того момента, как ты увидел змею. Что ты будешь делать? Начнешь кричать, чтобы отогнать змею, либо же кинешь в нее камень?",
     options: [
       {
-        text: "... (Текст кнопки №111)",
-        nextText: 75,
+        text: "Крикнуть на змею",
+        nextText: 71,
       },
       {
-        text: "... (Текст кнопки №112)",
-        nextText: 76,
+        text: "Кинуть камень в змею",
+        nextText: 77,
       },
     ],
     image: "images/73.jpeg",
   },
   {
-    id: 74, // 🇦🇺 ...
-    text: "🇦🇺 ... ",
+    id: 74, // Kill the piglets
+    text: "One year later, everyone died because there was no population of domesticated animals.",
     reStart,
     image: "images/74.jpeg",
   },
   {
-    id: 75, // 🇷🇺 ...
-    text: "🇷🇺 ... ",
+    id: 75, // Убить поросят
+    text: "Спустя год все умерли, так как не было популяции домашних животных.",
     reStart,
     image: "images/75.jpeg",
   },
