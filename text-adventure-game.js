@@ -871,30 +871,30 @@ const textNodes = [
     image: "images/75.jpeg",
   },
   {
-    id: 76, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 76, // Throw a stone at the snake
+    text: "You threw a stone in the direction where the snake was. It got scared and slithered away. Everything was okay again! In the morning, you all went together to the gas station to fill up on fuel and also to fill up some extra gas cans. Inside the convenience store at the gas station, there was chaos. It was clear that there had been a struggle. Abandoned guns were scattered on the floor. Someone must have been injured here, and it was apparent that people were in such a hurry that they even left their weapons behind. Maybe they were rushing to a hospital or to see a doctor. In these times, hospitals are not working, probably, so any doctor would be useful if you were in trouble. You put both of the found guns into your bag, checking how many rounds were in the magazines. The guns were almost fully loaded, which was good news, as it was unclear where to find bullets in these times. In general, you were constantly thinking about everything: the resources on the planet will not increase. Supplies of anything will become less and less. It was still unclear where to replenish and store supplies. At that moment, you were contacted by people from a military unit via radio. It turned out to be a group of paintball enthusiasts from the local club. The irony was that professional soldiers could not withstand the zombie onslaught, but when everyone in the military base was eaten or turned into zombies, the place was abandoned for half a day, after which paintball enthusiasts accidentally stumbled upon it, wanting to arrive here as refugees, since they had heard the invitation on the radio. Everyone who was uninfected was invited here, as it was a haven of hope. But nothing lasts forever. At the moment, the military base was safe again. There was not a single zombie there, but there were many good-natured bearded armed men who were happy to see everyone except for the infected. What will you choose? Take your family to strangers or go back to the bunker?",
     options: [
       {
-        text: "... (Текст кнопки №115)",
+        text: "Return to the bunker",
         nextText: 78,
       },
       {
-        text: "... (Текст кнопки №116)",
+        text: "Go to the military base",
         nextText: 80,
       },
     ],
     image: "images/76.jpeg",
   },
   {
-    id: 77, // 🇷🇺 ...
-    text: "🇷🇺 ...",
+    id: 77, // Кинуть камень в змею
+    text: "Ты кинул камень в ту сторону, где была змея. Она испугалась и уползла. Все опять стало ок! Утром вы дружно поехали на автозаправку, чтобы набрать топлива, а также залить бензина в канистры. В здании магазина на заправке был бардак. Видно, что там была борьба. На полу лежали брошенные пистолеты. Вероятно, кто-то был ранен тут, при этом было понятно, что люди настолько торопились, что аж бросили оружие. Возможно, они торопились в госпиталь или какому-либо врачу, вообще. В нынешние времена больницы не работают вовсе, наверное, поэтому сгодился бы любой врач, если вы в беде. Ты сложил оба найденные пистолета в сумку, предварительно проверив, сколько патронов в магазинах. Пистолеты были почти полностью заряженые, что было хорошей новостью, ибо не ясно, где брать патроны в такие-то времена. Вообще, у тебя постоянно крутились мысли на счет всего: ресурсов на планете больше не станет. Запасов чего угодно будет все меньше и меньше. Пока было не понятно, где пополнять и хранить припасы. В этот момент, с тобой на связь по рации вышли люди из военной части. Это группа фанатов пейнтбола из местного клуба. Ирония заключалась в том, что профессиональные военные не выдержали натиска зомби, но когда все в военной части были съедены или обращены в зомби, то потом это место опустело на полдня, после чего сюда случайно нагрянули любители пейнтбола, которые хотели прибыть сюда в качестве беженцев, ведь они слышали приглашение по радио. Сюда звали всех незараженных, так как это был оплот надежды. Но ничто не вечно под луной. В данный момент военная часть опять была безопасной. В ней не было ни одного зомби, но было много добродушных бородатых вооруженных людей, которые рады всем, кроме зараженных. Что ты выберешь? Повезти семью к незнакомым людям, либо же вернуться в бункер?",
     options: [
       {
-        text: "... (Текст кнопки №117)",
-        nextText: 79,
+        text: "Вернуться в бункер",
+        nextText: 63,
       },
       {
-        text: "... (Текст кнопки №118)",
+        text: "Поехать в военную часть",
         nextText: 81,
       },
     ],
@@ -907,8 +907,8 @@ const textNodes = [
     image: "images/78.jpeg",
   },
   {
-    id: 79, // 🇷🇺 ...
-    text: "🇷🇺 ... ",
+    id: 79, // Узнать про зомби
+    text: "Информация про зомби была очевидная и бесполезная. После того, как жулик выдал эту информацию, вы все увидели, что ладонь жулика разжалась, а в ней была граната без кольца.",
     reStart,
     image: "images/79.jpeg",
   },
