@@ -901,8 +901,8 @@ const textNodes = [
     image: "images/77.jpeg",
   },
   {
-    id: 78, // 🇦🇺 ...
-    text: "🇦🇺 ... ",
+    id: 78, // Find out about the zombie
+    text: "The information about the zombie was obvious and useless. After the thug gave out this information, you all saw that his hand unclenched, and there was a grenade without a pin in it.",
     reStart,
     image: "images/78.jpeg",
   },
@@ -913,114 +913,114 @@ const textNodes = [
     image: "images/79.jpeg",
   },
   {
-    id: 80, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 80, // Go to the military base
+    text: "You made the right choice when you headed to the military unit with your family. There, you met paintball enthusiasts from the local club. At the moment, the military unit was safe again. There was not a single zombie or infected person in it. Everything was great! Bearded guys had already wrapped themselves in machine gun belts and walked around with machine guns slung over their shoulders, guarding the perimeter. One of them suggested renaming the warehouse to a conservatory since there were a lot of canned goods there. The leader of the new community suggested that everyone choose roles according to their professions or desires. Someone had to prepare food, someone had to clean up, and someone had to guard everything around. Anyone who wanted to could go to relatives or friends, as everyone understood the situation. People were even offered food for the road. Few wanted to leave this safe place, at least for now. All the people were assigned to barracks, and there was also a reserve left for future members of the community. They also agreed on a currency: instead of dollars and cents, a few things were now in circulation - bullets, cigarettes, and canned goods. However, at the moment, fishing was more productive than hunting. Even before the apocalypse, humanity had made it so that there weren't many wild animals in the surrounding wilderness. However, we were lucky because there was a pig farm five kilometers away from the base. Unfortunately, there was nothing left to feed the pigs, so it was decided to humanely and quickly kill them all, and then either stew, dry, freeze, or eat the meat so that it wouldn't go to waste. During the inspection of the farm, one unpleasant thing was revealed: a group of people from our community witnessed a very unpleasant incident. Out of nowhere, a zombie appeared, and there were pigs around. The zombie didn't seem to want to bite the animals, but when one boar went crazy and attacked the zombie, it started biting everyone in sight, starting with the boar and ending with the sows. Then some of them turned into zombies, but the majority of the animals simply died. It was unclear how this worked and why some were infected, but there was no time to figure it out, so they quickly killed and burned them all in that spot. As you were leaving, you saw a small pen with growing piglets. What will you do? Kill them or shelter them on the outskirts of the military base?",
     options: [
       {
-        text: "... (Текст кнопки №121)",
-        nextText: 82,
+        text: "Kill the piglets",
+        nextText: 74,
       },
       {
-        text: "... (Текст кнопки №122)",
+        text: "Save the piglets",
         nextText: 84,
       },
     ],
     image: "images/80.jpeg",
   },
   {
-    id: 81, // 🇷🇺 ...
-    text: "🇷🇺 ...",
+    id: 81, // Поехать в военную часть
+    text: "Ты сделал правильный выбор, когда направился вместе со своей семьей в военную часть. Там вы встретились с любителями пейнтбола из местного клуба. В данный момент военная часть опять была безопасной. В ней не было ни одного зомби, ни одного зараженного человека. Все было отлично! Бородатые пузаны уже обмотались пулеметными лентами и ходили с пулеметами наперевес, охраняя периметр. Один из них предложил переименовать склад в консерваторию, так как там было много консервов) Лидер новой коммуны предложил всем выбрать роли в соответствии с их профессиями или желаниями. Кто-то должен был готовить еду, кто-то убираться, кто-то охранять все вокруг. Также было предложено уйти из лагеря по-хорошему, так как тут не тюрьма. Кто хотел, тот мог отправиться к родственникам или друзьям, ведь все понимали ситуацию. Людям даже предлагали еду в дорогу. Мало кто хотел уйти из этого безопасного места, по крайней мере, пока что. Всех людей распределили по баракам, а также оставили резерв для будущих членов коммуны. Также договорились о валюте: вместо долларов и центов теперь в ходу было аж несколько вещей - патроны, сигареты и консервы. Каждый день можно было получить немного консерв бесплатно, а раз в неделю можно было получить сигареты и патроны. Но патроны пока что некуда было тратить, кроме охоты. Но в данный момент лучше получалось с рыбалкой, а не с охотой. Еще до апокалипсиса человечество сделало так, что диких зверей в живой природе вокруг было не особо много. Правда, нам повезло, так как в пяти километрах от базы была свиноферма. К сожалению, свиней больше нечем было кормить, поэтому было принято решение убить их всех гуманно и быстро, а потом мясо потушить, завялить, заморозить или съесть. В общем, чтобы не пропадало. При осмотре фермы выяснилась одна неприятная вещь: группа людей из нашей коммуны стала свидетелем пренеприятнейшего инцидента. Откуда не возьмись появился зомби, а вокруг были свиньи. Зомби вроде не хотел кусать животных, но когда один боров психанул и бросился на зомби, то тот стал кусать всех подряд, начиная с борова, заканчивая свиноматками. Потом некоторые из них обращались в зомби, но основная масса зверей просто умирала. Было не понятно, как это работает и почему некоторые заражаются, но пока что не было времени с этим разбираться, поэтому именно в этом месте всех быстро убили и сожгли. Уходя, ты увидел маленький загончик с подрастающими поросятами. Что ты сделаешь? Убьешь их, либо же приютишь на окраине военной базы?",
     options: [
       {
-        text: "... (Текст кнопки №123)",
-        nextText: 83,
+        text: "Убить поросят",
+        nextText: 75,
       },
       {
-        text: "... (Текст кнопки №124)",
+        text: "Спасти поросят",
         nextText: 85,
       },
     ],
     image: "images/81.jpeg",
   },
   {
-    id: 82, // 🇦🇺 ...
-    text: "🇦🇺 ... ",
+    id: 82, // Don't bother the zombies
+    text: "When you left the zombies alone and headed towards the stairs, one of the zombies suddenly rushed towards one of your injured comrades. The zombie bit your friend, he turned into a zombie and ate all of you!",
     reStart,
     image: "images/82.jpeg",
   },
   {
-    id: 83, // 🇷🇺 ...
-    text: "🇷🇺 ... ",
+    id: 83, // Оставить зомби в покое
+    text: "Когда вы оставили зомби в покое и пошли к лестнице, тогда один из зомби резко рванул к одному из твоих раненых товарищей. Зомби укусил твоего друга, он обратился в зомби и съел вас всех!",
     reStart,
     image: "images/83.jpeg",
   },
   {
-    id: 84, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 84, // Save the piglets
+    text: "You rescued piglets from a farm, brought them to a barn on the outskirts of a military base, and organized water and feed supply in the form of grains to feed the piglets. It became clear that it was necessary to have supplies not only for people, but also for animals. Now, you had dogs and piglets in the camp. If new refugees with their pets arrived, it would be necessary to have a supply of food for them, at least for the first few days. You would have to haul a tractor and a wagon full of feed from the farm to the gates of the camp. And you now had a million tasks, concerning different aspects of life. It was necessary to solve the electricity problem, as regular power grids no longer worked anywhere, and the generator supply would run out very soon. It was decided to remove solar panels from houses in the nearest settlements. It was also necessary to drive a hundred kilometers to the 'Wind Mill Turbine Generators' store, which was located in the neighboring city. On the way, you had to find a fuel truck, or even better, two different trucks with fuel tanks, since some of your vehicles ran on diesel fuel, while others ran on gasoline. The camp leader assembled a small squad to tackle these tasks, after which you set off on a journey to collect all the necessary supplies. When you reached the highway, suddenly your car began to veer sharply from side to side, the wheels screeched, and the driver tried to brake. Someone had placed a special metal ribbon across the entire road, which punctured the tires. As a result, your car flew into the ditch, as the wheels turned to mush. When you crashed into a tree on the side of the road, the driver died, two other people were injured, and you escaped with minor bruises. When you looked around, you saw that a gang of thugs and thieves had released one zombie from its collar, which ran towards you. You quickly shot it in the head and took cover. Some of the bandits ran away, while the remaining ones tried to shoot you, but you were more accurate. Moreover, the wounded comrades helped you. They had wounds, but that didn't stop them from hiding behind the car and covering you. One of the thugs wanted to say something before he died. You approached him and thought about what to ask him: where the lair of these criminals was, or how they caught and kept the zombie on a leash?",
     options: [
       {
-        text: "... (Текст кнопки №127)",
-        nextText: 86,
+        text: "Find out about the zombie",
+        nextText: 78,
       },
       {
-        text: "... (Текст кнопки №128)",
-        nextText: 66,
+        text: "Find out the mafia hideout",
+        nextText: 88,
       },
     ],
     image: "images/84.jpeg",
   },
   {
-    id: 85, // 🇷🇺 ...
-    text: "🇷🇺 ...",
+    id: 85, // Спасти поросят
+    text: "Ты спас поросят с фермы, отнес их в сарай на окраине военной базы, а также организовал там подачу воды и корма в виде зерен для питания поросят. Становилось понятно, что нужно иметь припасы не только для людей, но и для зверей. Теперь в лагере у вас уже были собаки и поросята. Если будут приходить новые беженцы со своими питомцами, нужно иметь корм прозапас хотя бы на первое время. Нужно будет притащить трактор и телегу с кормом с фермы к воротам лагеря. И таких задач, касающихся разных сторон жизни, у тебя теперь был миллион. Нужно было что-то решать с электричеством, так как обычные электросети больше не работали нигде, а запас в генераторах закончится очень скоро. Было принято решение поснимать солнечные панели с домов в ближайших населенных пунктах. Также нужно было съездить за сто километров в магазин 'Wind Mill Turbine Generators', который находился в соседнем городе. По пути надо было найти трак с цистерной топлива, а еще лучше два разных трака с такими цистернами, ибо часть вашей техники ездила на дизтопливе, а часть - на бензине. Лидер лагеря собрал небольшой отряд для решения этих задач, после чего вы отправились в поход за всеми необходимыми припасами. Когда вы выехали на трассу, то вдруг вашу машину стало резко кидать из стороны в сторону, колеса завизжали, водитель пытался затормозить. Кто-то разложил поперек всей дороги специальную металическую ленту, которая протыкала шины. Из-за этого ваша машина полетела в кювет, так как колеса превратились в труху. Когда вы врезались в дерево на обочине, то водитель погиб, двое других людей были ранены, а ты отделался легкими ушибами. Когда ты вбрался, то увидел, что шайка жуликов и воров спустила с ошейника одного зомби, который побежал на тебя. Ты быстро выстрелил ему в голову и отбежал за укрытие. Часть бандитов стала убегать, а оставшиеся попытались подстрелить тебя, но ты был более меткий. К тому же, тебе помогли раненые товарищи. У них были раны, но это не помешало им спрятаться за автомобилем и прикрыть тебя. Один из жуликов перед смертью хотел что-то сказать. Ты подошел к нему и подумал, что у него спросить: где находится нора этих преступников, либо же, узнать, как они поймали и держали на привязи зомби?",
     options: [
       {
-        text: "... (Текст кнопки №129)",
-        nextText: 87,
+        text: "Узнать про зомби",
+        nextText: 79,
       },
       {
-        text: "... (Текст кнопки №130)",
+        text: "Узнать, где логово мафии",
         nextText: 89,
       },
     ],
     image: "images/85.jpeg",
   },
   {
-    id: 86, // 🇦🇺 ...
-    text: "🇦🇺 ... ",
+    id: 86, // Do not take the girl with you
+    text: "The girl was a young doctor. She could have become the most useful member of the community. In the end, you all died.",
     reStart,
     image: "images/86.jpeg",
   },
   {
-    id: 87, // 🇷🇺 ...
-    text: "🇷🇺 ... ",
+    id: 87, // Не брать девушку с собой
+    text: "Девушка была молодым врачем. Она могла бы стать самым полезным участником коммуны. В итоге, вы все умерли.",
     reStart,
     image: "images/87.jpeg",
   },
   {
-    id: 88, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 88, // Locating the mafia's headquarters
+    text: "You decided to go to the mafia's hideout and deal with them, as these bandits wouldn't spare your life anyway. But on the way, you stopped by the hospital to treat your comrades' wounds. The hospital had been almost completely looted, like everything else on this planet. But you managed not only to dress the wounds but also to gather antibiotics, syringes, IVs, tourniquets, bandages, and other things that might come in handy after battles with bad people. As you headed towards the stairs to go down to the exit, you saw several wards where zombies lay with broken legs and other injuries. Not so long ago, these were sick people who had been in accidents and similar unpleasant situations. Someone had received an industrial injury and then ended up in a hospital where they were bitten by a zombie during the beginning of the apocalypse. As they say, out of the frying pan into the fire. It was clear that all of them were pitiful. They were absolutely not to blame for turning into zombies after being bitten. But now something had to be done with them. They couldn't escape during the zombie attack and now they were literally tied to their beds. All they could do was growl and wave their arms. You had a choice: leave them alone or end their suffering.",
     options: [
       {
-        text: "... (Текст кнопки №133)",
-        nextText: 90,
+        text: "Don't bother the zombies",
+        nextText: 82,
       },
       {
-        text: "... (Текст кнопки №134)",
+        text: "Put a bullet in the zombie's head",
         nextText: 92,
       },
     ],
     image: "images/88.jpeg",
   },
   {
-    id: 89, // 🇷🇺 ...
-    text: "🇷🇺 ...",
+    id: 89, // Узнать, где логово мафии
+    text: "Вы решили пойти в логово мафии и разобраться там со всем, так как эти бандиты все равно вам не дали бы жизни. Но по пути вы заглянули в госпиталь, чтобы сделать перевязку своим товраищам. Госпиталь был почти полностью разграблен, как и все остальное на этой планете. Но вам удалось не только перевязать раны, но и набрать с собой антибиотиков, шприцов, капельницу, жгуты, пластыри, бинты и прочее, что может пригодится после боев с плохими людьми.Когда вы направились к лестнице, чтобы спуститься к выходу, то увидели несколько палат, в которых лежали зомби со сломанными ногами и прочим. Еще совсем недавно это были больные люди, которые попали в аварию и тому подобные неприятности. Кто-то получил производственную травму, а потом попал в госпиталь, где был укушен зомби во время начала апокалипсиса. Что называется, из огня да в полымя. Понятно, что всех их было жалко. Они абсолютно не были виноваты в том, что обратились в зомби после укусов. Но теперь с ними нужно было что-то делать. Сами они не могли убежать во время атаки зомби, а теперь тоже были буквально прикованы к своим кроватям. Им оставалось только рычать и махать руками. У тебя был выбор: оставать их тут, либо же закончить их страдания.",
     options: [
       {
-        text: "... (Текст кнопки №135)",
-        nextText: 91,
+        text: "Оставить зомби в покое",
+        nextText: 83,
       },
       {
-        text: "... (Текст кнопки №136)",
+        text: "Пустить пулю в голову зомби",
         nextText: 93,
       },
     ],
