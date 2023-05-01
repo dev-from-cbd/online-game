@@ -1039,15 +1039,15 @@ const textNodes = [
     image: "images/91.jpeg",
   },
   {
-    id: 92, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 92, // Put a bullet in the zombie's head
+    text: "When you finished off the zombies, you headed towards the lair of the thugs and thieves. Their camp was located in a now abandoned yacht club. Generally, this is a fortunate location for a base, as such places always have reserves of fresh water, diesel fuel, and other necessities. At that time, there were only three people in the camp: two of them were those who had recently fled from the shootout, one of them was sleeping, and the other person was a lookout, that is, the one who was on duty. You managed to quietly sneak up to him and signal him to put down his weapon and stand against the wall. You tied him up and gagged him. You also managed to do the same with the other two bandits. While you were interrogating the leader, one of your friends went to explore the surroundings, but suddenly a zombie appeared in one of the rooms, which looked like a warehouse. Apparently, the bandits were trying to keep the zombies locked up, so that from time to time they could take them out and use them in their daring attacks on the surviving people. Anyway, your friend was bitten and turned into a zombie. Then they attacked the bandits and ate them. You had to kill all the zombies. Now only you and the leader of the paintballers are left alive here. Near the yacht club, you found a truck with a fuel tanker, but you had an idea of where to find gasoline. However, at the moment, the task was simple - to get to your base with everything you had collected during the raid. On the way, you met a girl. What will you choose: pick her up or be afraid that she is infected?",
     options: [
       {
-        text: "... (Текст кнопки №139)",
-        nextText: 94,
+        text: "Do not take the girl with you",
+        nextText: 86,
       },
       {
-        text: "... (Текст кнопки №140)",
+        text: "Take the girl with you",
         nextText: 96,
       },
     ],
@@ -1081,8 +1081,8 @@ const textNodes = [
     image: "images/95.jpeg",
   },
   {
-    id: 96, // 🇦🇺 ...
-    text: "🇦🇺 ...",
+    id: 96, // Take the girl with you
+    text: "The girl turned out to be a young doctor. Eventually, she became the most valuable member of the community. One day, an old scientist joined your community. Together, the doctor and the scientist were able to invent a vaccine using the blood of a captured zombie. It turned out that if a person was given a small dose of the vaccine containing zombie blood, they would get sick with a fever for a while, but eventually, they would develop immunity to zombie bites. This was a vaccine, not a cure. So if a person was not vaccinated in advance but got bitten by a zombie, it was too late to administer the vaccine. So, if all the good people were vaccinated, zombie bites would only be a threat to the bad guys. The only thing left for the good people was to unite, protect themselves in their camps, set traps for zombies and the last bad guys, and then start rebuilding civilization from scratch. Overall, things were starting to improve, but tactical moves were not easy. For example, to replenish food and supplies, it was necessary to go through all the buildings one by one, including residential and non-residential buildings. There were strange things like fitness rooms filled with huge zombies. It turned out that the apocalypse caught bodybuilders in the gym, and they could not get out, so they stayed there until we came and destroyed them. The problem with cars was relatively easy to solve. We collected all the electric cars and added bull bars, which were commonly called kangaroo bars. We also collected solar panels from all the houses we could reach. Now we had the ability to charge our transportation and power all necessary devices. In general, everything was great! Not as good as before the apocalypse, but not as bad as it could have been :) Gradually, life began to improve. Everything normalized and fell into its own rhythm. People believed in the future, and that was the most important thing.",
     options: [
       {
         text: "... (Текст кнопки №145)",
