@@ -1026,13 +1026,6 @@ const textNodes = [
     ],
     image: "images/89.jpeg",
   },
-
-  {
-    id: 91, // 🇷🇺 ...
-    text: "🇷🇺 ... ",
-    reStart,
-    image: "images/91.jpeg",
-  },
   {
     id: 92, // Put a bullet in the zombie's head
     text: "When you finished off the zombies, you headed towards the lair of the thugs and thieves. Their camp was located in a now abandoned yacht club. Generally, this is a fortunate location for a base, as such places always have reserves of fresh water, diesel fuel, and other necessities. At that time, there were only three people in the camp: two of them were those who had recently fled from the shootout, one of them was sleeping, and the other person was a lookout, that is, the one who was on duty. You managed to quietly sneak up to him and signal him to put down his weapon and stand against the wall. You tied him up and gagged him. You also managed to do the same with the other two bandits. While you were interrogating the leader, one of your friends went to explore the surroundings, but suddenly a zombie appeared in one of the rooms, which looked like a warehouse. Apparently, the bandits were trying to keep the zombies locked up, so that from time to time they could take them out and use them in their daring attacks on the surviving people. Anyway, your friend was bitten and turned into a zombie. Then they attacked the bandits and ate them. You had to kill all the zombies. Now only you and the leader of the paintballers are left alive here. Near the yacht club, you found a truck with a fuel tanker, but you had an idea of where to find gasoline. However, at the moment, the task was simple - to get to your base with everything you had collected during the raid. On the way, you met a girl. What will you choose: pick her up or be afraid that she is infected?",
