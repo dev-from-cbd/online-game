@@ -1057,12 +1057,6 @@ const textNodes = [
     image: "images/93.jpeg",
   },
   {
-    id: 95, // 🇷🇺 ...
-    text: "🇷🇺 ... ",
-    reStart,
-    image: "images/95.jpeg",
-  },
-  {
     id: 96, // Take the girl with you
     text: "The girl turned out to be a young doctor. Eventually, she became the most valuable member of the community. One day, an old scientist joined your community. Together, the doctor and the scientist were able to invent a vaccine using the blood of a captured zombie. It turned out that if a person was given a small dose of the vaccine containing zombie blood, they would get sick with a fever for a while, but eventually, they would develop immunity to zombie bites. This was a vaccine, not a cure. So if a person was not vaccinated in advance but got bitten by a zombie, it was too late to administer the vaccine. So, if all the good people were vaccinated, zombie bites would only be a threat to the bad guys. The only thing left for the good people was to unite, protect themselves in their camps, set traps for zombies and the last bad guys, and then start rebuilding civilization from scratch. Overall, things were starting to improve, but tactical moves were not easy. For example, to replenish food and supplies, it was necessary to go through all the buildings one by one, including residential and non-residential buildings. There were strange things like fitness rooms filled with huge zombies. It turned out that the apocalypse caught bodybuilders in the gym, and they could not get out, so they stayed there until we came and destroyed them. The problem with cars was relatively easy to solve. We collected all the electric cars and added bull bars, which were commonly called kangaroo bars. We also collected solar panels from all the houses we could reach. Now we had the ability to charge our transportation and power all necessary devices. In general, everything was great! Not as good as before the apocalypse, but not as bad as it could have been :) Gradually, life began to improve. Everything normalized and fell into its own rhythm. People believed in the future, and that was the most important thing.",
     options: [
