@@ -1079,12 +1079,6 @@ const textNodes = [
     image: "images/97.jpeg",
   },
   {
-    id: 99, // 🇷🇺 ...
-    text: "🇷🇺 ... ",
-    reStart,
-    image: "images/99.jpeg",
-  },
-  {
     id: 100,
     text: "You won!",
     options: [
