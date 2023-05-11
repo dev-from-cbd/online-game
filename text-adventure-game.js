@@ -94,7 +94,7 @@ const textNodes = [
       },
       {
         text: "Your home",
-        nextText: 101,
+        nextText: 52,
       },
     ],
     image: "images/2.jpeg",
