@@ -367,8 +367,8 @@ const textNodes = [
     image: "images/27.jpeg",
   },
   {
-    id: 28, // Get on the last subway carriage
-    text: "You managed to jump into the last car just in time. Your train slowly departed from the city. Outside the window, you saw some kind of fights going on. You already understood that something terrible was happening! The cell phone connection still didn't work, so you didn't know what was happening with your family. As you were traveling to your station, a fight broke out in the last car, and a fire started. You need to decide quickly whether to save yourself and run to the front of the train, or go to the back car and figure out who started the fire in the train.",
+    id: 28, // Get on the last train carriage
+    text: "You managed to jump into the last car just in time. Your train slowly departed from the city. Outside the window, you saw some kind of fights going on. You already understood that something terrible was happening! The cell phone connection still didn't work, so you didn't know what was happening with your family. As you were traveling to your station, a fight broke out in the last train carriage, and a fire started. You need to decide quickly whether to save yourself and run to the front of the train, or go to the back car and figure out who started the fire in the train.",
     options: [
       {
         text: "Stay in the tail of the train",
